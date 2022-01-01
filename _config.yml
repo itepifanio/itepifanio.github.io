@@ -24,10 +24,12 @@ description: >- # this means to ignore newlines until "baseurl:"
   Web dev & more.
 baseurl: "blog" # the subpath of your site, e.g. /blog
 url: "https://itepifanio.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+relative_url: "blog"
 twitter_username: itepifanio
 github_username:  itepifanio
 languages: ["en", "pt"]
 lang: en
+google_analytics: G-YBQH55JB4K
 
 # Build settings
 theme: minima
