@@ -2,7 +2,6 @@
 layout: post
 title:  "TALL - Uma nova stack para PHP"
 date:   2020-06-19 17:09:20 -0300
-categories: pt
 ---
 
 [**T**ailwind](https://tailwindcss.com/), [**A**lpinejs](https://github.com/alpinejs/alpine), [**L**aravel](https://laravel.com/) e [**L**ivewire](https://laravel-livewire.com/) (**TALL**) é uma solução para desenvolvedores full stack [construída pela comunidade laravel](https://tallstack.dev/) que foca principalmente no desenvolvimento backend, mas que permite o desenvolvimento de sistemas ditos "reativos".
