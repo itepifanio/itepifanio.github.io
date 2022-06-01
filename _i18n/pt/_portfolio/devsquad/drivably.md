@@ -1,0 +1,2 @@
+Developed and maintain Drivably's website. Updating financial subscriptions modules, improving the UI, and fixing eventual bugs.
+The technologies used in this project were Vuejs to the frontend and Laravel (PHP) for the backend.
