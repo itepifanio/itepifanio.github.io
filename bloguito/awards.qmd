@@ -1,0 +1,7 @@
+---
+pagetitle: "Awards"
+title: "Awards"
+listing:
+  contents: awards
+  sort: "date desc"
+---

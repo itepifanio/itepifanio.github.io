@@ -1,0 +1,7 @@
+---
+pagetitle: "Projects"
+title: "Projects"
+listing:
+  contents: projects
+  sort: "date desc"
+---

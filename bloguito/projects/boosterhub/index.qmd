@@ -1,0 +1,21 @@
+---
+title:  "Boosterhub"
+pagetitle: "Boosterhub"
+date:   2022-05-01
+---
+
+Developed from scratch the MVP of Boosterhub using PHP, Laravel, and the Livewire package. 
+
+![](boosterhub.png)
+
+In a period of three months, we deliver a multi-tenant software with a customizable page builder 
+and a custom e-commerce solution. It was very fun to integrate the e-commerce with the USIO payment 
+suite since their team helped us a lot. 
+
+I also was responsible to develop a full calendar solution. It was very challenging to develop the recurring 
+event system of the calendar in a short period of time, but the final solution was a well-tested code that 
+considered timezones, event reminders, and commercial time to send the email/SMS reminders.
+
+Boosterhub's webchat was also developed by me. A real-time chat using Twilio WebSocket that allowed users of 
+the same team to communicate with each other and also create groups of users to easily communicate with the 
+whole team.

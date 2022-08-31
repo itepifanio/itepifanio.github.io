@@ -1,0 +1,5 @@
+---
+title:  "Python Brasil 2020"
+pagetitle: "Python Brasil 2020"
+date:   2020-11-01
+---

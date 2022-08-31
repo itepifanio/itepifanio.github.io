@@ -1,0 +1,14 @@
+---
+title:  "SwellCX"
+pagetitle: "SwellCX"
+date:   2021-05-01
+---
+
+Helped to develop a new version of the software using Laravel Livewire package. 
+The SwellCX's version 3 had a fast pace development in the middle of the COVID-19 pandemic, 
+where a lot of new customers start to use the project. 
+New modules were developed, for example, the payment suite, one of the most expected features from v3. 
+Also, a lot of optimization was made, since new clients start to use the software in the middle of the 
+v3 migration we worked hard to make their experience even better.
+
+![](swell.png)

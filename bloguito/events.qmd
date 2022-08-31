@@ -1,0 +1,7 @@
+---
+pagetitle: "Events & Community"
+title: "Events & Community"
+listing:
+  contents: events
+  sort: "date desc"
+---
