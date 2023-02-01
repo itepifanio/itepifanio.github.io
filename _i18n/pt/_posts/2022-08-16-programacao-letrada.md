@@ -10,7 +10,7 @@ Um exemplo de Jupyter notebook pode ser vista na imagem abaixo:
 
 ![Parte de um Jupyter notebook que inclui uma seção com texto em formato markdown e código python](/assets/jupyter-markdown-and-code.png)
 
-Programação letrada é um paradigma muito bem conceituado, formalmente discutido por muitos pesquisadores respeitados mundialmente como o [Donald Knuth](https://pt.wikipedia.org/wiki/Donald_Knuth). Ao mesmo tempo, Jupyter notebooks são considerados ineficientes para o desenvolvimento de software. Essa controversia levou a criação da famosa palestra "[Eu não gosto de notebooks](https://www.youtube.com/watch?v=7jiPeIFXb6U)", respondida por outra palestra intitulada "[Eu gosto de Jupyter notebooks](https://www.youtube.com/watch?v=7jiPeIFXb6U)" que gerou [bastante drama]((https://www.fast.ai/2020/10/28/code-of-conduct/)) na comunidade Python.
+Programação letrada é um paradigma muito bem conceituado, formalmente discutido por muitos pesquisadores respeitados mundialmente como o [Donald Knuth](https://pt.wikipedia.org/wiki/Donald_Knuth). Ao mesmo tempo, Jupyter notebooks são considerados ineficientes para o desenvolvimento de software. Essa controversia levou a criação da famosa palestra "[Eu não gosto de notebooks](https://www.youtube.com/watch?v=7jiPeIFXb6U)", respondida por outra palestra intitulada "[Eu gosto de Jupyter notebooks](https://www.youtube.com/watch?v=7jiPeIFXb6U)" que gerou [bastante drama](https://www.fast.ai/2020/10/28/code-of-conduct/) na comunidade Python.
 
 ![Capa do vídeo "Eu gosto de Jupyter notebooks" que, além do título garrafal, mostra ao fundo o Lula Molusco em cima de um palco, se esquivando de tomates sendo jogados pela plateia](/assets/i-like-notebooks.jpg)
 
