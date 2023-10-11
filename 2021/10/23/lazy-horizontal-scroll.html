@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Lazy horizontal scroll | Bloguito</title>
+<meta name="generator" content="Jekyll v4.2.1" />
+<meta property="og:title" content="Lazy horizontal scroll" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="Recently I came across with the following scenario: a management software of workflows that allow the user to dynamic create its kanbans (like the one in the image below). One of the users set its kanban to have 38 columns." />
+<meta property="og:description" content="Recently I came across with the following scenario: a management software of workflows that allow the user to dynamic create its kanbans (like the one in the image below). One of the users set its kanban to have 38 columns." />
+<link rel="canonical" href="https://itepifanio.github.io/2021/10/23/lazy-horizontal-scroll.html" />
+<meta property="og:url" content="https://itepifanio.github.io/2021/10/23/lazy-horizontal-scroll.html" />
+<meta property="og:site_name" content="Bloguito" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-10-23T20:09:20+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Lazy horizontal scroll" />
+<script type="application/ld+json">
+{"description":"Recently I came across with the following scenario: a management software of workflows that allow the user to dynamic create its kanbans (like the one in the image below). One of the users set its kanban to have 38 columns.","headline":"Lazy horizontal scroll","dateModified":"2021-10-23T20:09:20+00:00","datePublished":"2021-10-23T20:09:20+00:00","url":"https://itepifanio.github.io/2021/10/23/lazy-horizontal-scroll.html","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://itepifanio.github.io/2021/10/23/lazy-horizontal-scroll.html"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://itepifanio.github.io/feed.xml" title="Bloguito" /><script async src="https://www.googletagmanager.com/gtag/js?id=G-YBQH55JB4K"></script>
+<script>
+  window['ga-disable-G-YBQH55JB4K'] = window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1";
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){window.dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-YBQH55JB4K');
+</script>
+
+<script defer data-domain="itepifanio.github.io" src="https://plausible.io/js/plausible.js"></script>
+</head>
+<body><header class="site-header">
+    <div class="wrapper"><a class="site-title" rel="author" href="/">Bloguito</a>
+
+        <nav class="site-nav">
+            <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+            <label for="nav-trigger">
+                <span class="menu-icon">
+                    <svg viewBox="0 0 18 15" width="18px" height="15px">
+                        <path
+                            d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z" />
+                    </svg>
+                </span>
+            </label>
+
+            <div class="trigger">
+                
+                    <a class="page-link" href="/about">About</a>
+                
+
+                
+                    <a class="link-en" href="/"><u>En</u></a>
+                
+
+                
+                    <a class="link-it" href="/pt/">PT-br</a>
+                                
+            </div>
+        </nav>
+    </div>
+</header><main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" style="text-align: justify;" itemscope>
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Lazy horizontal scroll</h1>
+    <p class="post-meta"><time class="dt-published" datetime="2021-10-23T20:09:20+00:00" itemprop="datePublished">
+        Oct 23, 2021
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>Recently I came across with the following scenario: a management software of workflows that allow the user to dynamic create its kanbans (like the one in the image below). One of the users set its kanban to have 38 columns.</p>
+
+<p>The software was design in a way that every kanban column made a request to the backend, in this scenario 38 new requests were made every time a user access the kanban page. This not only overload the server but also the database.</p>
+
+<p><img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/6ui3slceaoxqovpxm1uo.jpg" alt="Kanban image with five columns. The columsn in the sequence: stories, todo, in progress, testing, done" /></p>
+
+<p>First we needed to decrease the number of requests, limiting the requests to the columns that were visible to the user. After that we had to make sure that if the user scrolls to the end of the page at once, the columns would not request the data unless they were visible for a certain amount of time.</p>
+
+<h2 id="limiting-loading-to-visible-cards">Limiting loading to visible cards</h2>
+
+<p>Javascript offers an API called <a href="https://developer.mozilla.org/en-US/docs/Web/API/IntersectionObserver">IntersectionObserver</a> that allow us to watch HTML elements and check its visibility on screen. The code below shows its most basic operation.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">onIntersection</span> <span class="o">=</span> <span class="p">(</span><span class="nx">elements</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+    <span class="nx">elements</span><span class="p">.</span><span class="nx">forEach</span><span class="p">(</span><span class="nx">element</span> <span class="o">=&gt;</span> <span class="p">{</span>
+      <span class="k">if</span> <span class="p">(</span><span class="nx">element</span><span class="p">.</span><span class="nx">isIntersecting</span><span class="p">)</span> <span class="p">{</span>
+          <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">element</span><span class="p">,</span> <span class="dl">'</span><span class="s1">is visible</span><span class="dl">'</span><span class="p">);</span>
+      <span class="p">}</span>
+  <span class="p">});</span>
+<span class="p">};</span>
+
+<span class="kd">const</span> <span class="nx">observer</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">IntersectionObserver</span><span class="p">(</span><span class="nx">onIntersection</span><span class="p">);</span>
+
+<span class="nx">observer</span><span class="p">.</span><span class="nx">observe</span><span class="p">(</span><span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="dl">'</span><span class="s1">.my-elements</span><span class="dl">'</span><span class="p">));</span>
+</code></pre></div></div>
+
+<p>The function <code class="language-plaintext highlighter-rouge">onIntersection</code> is responsable for the logic that will be applied to the visible elements, it takes a list of elements and checks that if they’re visible  (<code class="language-plaintext highlighter-rouge"> element.isIntersecting </code>) then something will be done, in which case a console message is displayed.</p>
+
+<p>The ` IntersectionObserver ` API call is made and set to the ` observer ` variable. The ` observer ` object will then be able to observe elements in the HTML and execute logic only when they are visible on the user’s screen. In my case, for the giant kanban, this was enough to limit the 38 requests as the page loaded to just 5, but if the user scrolled the page to its end at once several requests would be made (the other 33 requests).</p>
+
+<h2 id="load-only-after-a-certain-time-of-the-visible-element-on-the-page">Load only after a certain time of the visible element on the page</h2>
+
+<p>The ` IntersectionObserver ` API has a <a href="https://web.dev/intersectionobserver-v2/">version 2</a> that allows capturing how long a certain HTML element was visible on the screen and this would easily solve the element loading problem HTML only after a certain amount of time. However, version 2 still doesn’t have its implementations compatible with most browsers.</p>
+
+<p>In my specific case I was using a parent component that rendered the 38 child elements and I couldn’t check when those 38 child elements were finished rendering to observe them with the ` InsertersectionObserver `, so control how long each element was visible in the screen got a little more complicated.</p>
+
+<p>Each of the 38 child elements knew when they were rendering themselves, so you could use the ` IntersectionObserver ` internally on each of them. Using the ` setTimeout ` function of the javascript you can observe the element after a certain time specified in milliseconds.</p>
+
+<p>We have 38 elements, but most are not visible on the screen and become visible when scrolling, with the ` setTimeout ` delay this action still takes some time to be executed. During scrolling, when the element visible on the screen has not yet triggered the specified <code class="language-plaintext highlighter-rouge">setTimeout</code> and the user has already scrolled to the next element, it is possible to remove the timeout of the previous element from the stack and then load only the next element. The following code shows this strategy.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&lt;</span><span class="nx">div</span> <span class="kd">class</span><span class="o">=</span><span class="dl">"</span><span class="s2">border border-black m-1 p-10 min-w-max h-10</span><span class="dl">"</span>
+       <span class="nx">x</span><span class="o">-</span><span class="nx">data</span><span class="o">=</span><span class="dl">""</span>
+       <span class="nx">x</span><span class="o">-</span><span class="nx">init</span><span class="o">=</span><span class="dl">"</span><span class="s2">() =&gt; {
+           let timeout;
+           let loadColumn = function (elements) {
+               clearTimeout(timeout);
+               
+               timeout = setTimeout(function() {
+                   elements.forEach(element =&gt; {
+                       if (element.isIntersecting) {
+                           // do something
+                           observer.unobserve(element.target);
+                       }
+                   });
+               }, 750);
+           }
+           
+           let observer = new IntersectionObserver(loadColumn);
+           let target = $el;
+           observer.observe(target);
+       }</span><span class="dl">"</span><span class="o">&gt;</span>
+  <span class="o">&lt;</span><span class="sr">/div</span><span class="err">&gt;
+</span></code></pre></div></div>
+
+<p>When the component is loaded into the page it already starts looking at itself using the ` loadColumn ` function. Such function removes the previous timeouts (which were not triggered) from the execution stack and adds a new timeout which after 750 milliseconds does something and removes the observation to not redo the same logic if the element becomes visible again.</p>
+
+<p>In my case the logic was the request to the server so I only needed to load the data once and then ignore it if the element was visible again on the page.</p>
+
+<blockquote>
+  <p>Did you find the above code syntax strange? This javascript microframework is called <a href="https://alpinejs.dev/">AlpineJS</a> and that’s what I used to develop the complete solution.</p>
+</blockquote>
+
+<p>A simpler POC, without the request to the server, can be seen below. After being visible on your screen the white squares will turn black indicating the request to the server.</p>
+
+<p data-height="400" data-theme-id="0" data-slug-hash="PoKqGPm" data-default-tab="result" data-user="" class="codepen">See the Pen <a href="http://codepen.io//pen/PoKqGPm/">Carregamento lento com scroll horizontal</a> by  (<a href="http://codepen.io/">@</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async="" src="//assets.codepen.io/assets/embed/ei.js"></script>
+
+<p>If you are interested in seeing a solution with vanilla javascript <a href="https://www.codeguage.com/tutorials/lazy-loading/intersection-observer">this was my reference</a>.</p>
+
+
+  </div><a class="u-url" href="/2021/10/23/lazy-horizontal-scroll.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+    <data class="u-url" href="/%20/"></data>
+
+    <div class="wrapper">
+        <div class="footer-col-wrapper">
+            <div class="footer-col">
+                <p class="feed-subscribe">
+                    <a href="/feed.xml">
+                        <svg class="svg-icon orange">
+                            <use xlink:href="/assets/minima-social-icons.svg#rss"></use>
+                        </svg><span>Subscribe</span>
+                    </a>
+                </p>
+            </div>
+            <div class="footer-col">
+                <p>Web dev &amp; more.</p>
+            </div>
+        </div>
+
+        <div class="social-links"><ul class="social-media-list"><li><a href="https://github.com/itepifanio"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">itepifanio</span></a></li><li><a href="https://www.twitter.com/itepifanio"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">itepifanio</span></a></li></ul>
+</div>
+    </div>
+</footer></body>
+
+</html>
