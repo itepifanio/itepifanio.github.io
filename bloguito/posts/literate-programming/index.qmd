@@ -14,7 +14,7 @@ An example of a
 [Jupyter notebook including a section of markdown and Python code](https://github.com/palaimon/ipyannotator/blob/main/nbs/11_build_annotator_tutorial.ipynb) 
 is shown in the following.
 
-![A small piece of a Jupyter notebook that inclues a block with markdown text and another with python code](/assets/jupyter-markdown-and-code.png)
+![A small piece of a Jupyter notebook that inclues a block with markdown text and another with python code](jupyter-markdown-and-code.png)
 
 Literate programming is a very well regarded concept, formally discussed by
 respected researchers like [Donald Knuth](https://en.wikipedia.org/wiki/Donald_Knuth). 
@@ -26,7 +26,7 @@ responded by the
 generated [quite some drama](https://www.fast.ai/2020/10/28/code-of-conduct/) within the 
 community.
 
-![Thumbnail of the "I like notebooks" video. It shows Squidward Tentacles on a stage dodgin tomatoes](/assets/i-like-notebooks.jpg)
+![Thumbnail of the "I like notebooks" video. It shows Squidward Tentacles on a stage dodgin tomatoes](i-like-notebooks.jpg)
 
 Jupyter notebooks have been limited to explore data, small scripts, and 
 educational materials. The recent introduction of nbdev, a python library, expanded the capabilities 
