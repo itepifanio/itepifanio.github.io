@@ -1,0 +1,99 @@
+---
+layout: post
+title: 'Literate programming with Jupyter notebooks + nbdev + Quarto'
+date: 2022-08-16 17:09:20 -0300
+categories: [English]
+---
+
+The [Jupyter notebook](https://jupyter.org/) development environment is very popular in 
+the scientific Python community. With this tool you can write markdown and code in the 
+same file, which can increase the readability of the program. This paradigm is known as 
+[literate programming](https://en.wikipedia.org/wiki/Literate_programming).
+
+An example of a 
+[Jupyter notebook including a section of markdown and Python code](https://github.com/palaimon/ipyannotator/blob/main/nbs/11_build_annotator_tutorial.ipynb) 
+is shown in the following.
+
+![A small piece of a Jupyter notebook that inclues a block with markdown text and another with python code](/assets/jupyter-markdown-and-code.png)
+
+Literate programming is a very well regarded concept, formally discussed by
+respected researchers like [Donald Knuth](https://en.wikipedia.org/wiki/Donald_Knuth). 
+At the same time, Jupyter notebooks are considered inefficient for serious software development.
+This controversy led to the famous 
+"[I don't like notebooks](https://www.youtube.com/watch?v=7jiPeIFXb6U&t=20s)" talk, 
+responded by the 
+"[I like Jupyter notebooks](https://www.youtube.com/watch?v=9Q6sLbz37gk)" talk that 
+generated [quite some drama](https://www.fast.ai/2020/10/28/code-of-conduct/) within the 
+community.
+
+![Thumbnail of the "I like notebooks" video. It shows Squidward Tentacles on a stage dodgin tomatoes](/assets/i-like-notebooks.jpg)
+
+Jupyter notebooks have been limited to explore data, small scripts, and 
+educational materials. The recent introduction of nbdev, a python library, expanded the capabilities 
+of notebooks. Nbdev allows the development and distribution of python packages using the literate 
+programming style, as well as test, document, and develop technical files.
+
+> Nbdev allows you to tell a story with your code. It is a practical and powerful tool!
+
+Nbdev has proven to be uselful in developing big and serious projects, like 
+[FastAi](https://github.com/fastai/fastai).
+Relying on nbdev and Jupyter notebook allows software development with quality and the 
+benefits of the literate programming style.
+
+## Experience
+
+My first experience with nbdev was weird. Working with Jupyter notebooks for 
+software development didn't feel natural, as expected, afterall it's 
+a new paradigm.
+
+The software tool that I'm currently working on, 
+[Ipyannotator](https://github.com/palaimon/ipyannotator), is an open source 
+framework for annotations with a Graphical User Interface (GUI) that works on 
+top of Jupyter notebook. Ipyannotator development was possible due to the nbdev 
+allowing us to test the software on notebooks and export the code as a Python library.
+
+> After 10 months of developing software with Jupyter notebook I feel that this has 
+> increased my productivity.
+
+This software paradigm allowed me to keep my documentation up to date since the documentation is written right above my Python code block. This literate programming paradigm 
+also reduces the mental lapse of going back to old code, making it easier to understand 
+previous design decisions, since they are already documented.
+
+## Quarto
+
+On July 28th, nbdev released its second version and incorporated another open source tool 
+into its arsenal, [Quarto](https://quarto.org/). Quarto allows the creation of technical 
+content using Python, R or Julia, using files such as Jupyter notebooks, markdown, 
+R Notebooks and allowing to export these files as articles, websites, blogs, HTML, PDFs, 
+EPub, etc.
+
+> Quarto is a complete solution to easily write any technical material with the tools you already know.
+
+This tool is so awesome that I'm planning to migrate my personal blog from Jekyll to Quarto. 
+It's clean in design, usability, and ability to execute code embedded by text blocks, which fits perfectly any technical 
+writing requirements.
+
+Nbdev noticed how powerful Quarto can be.
+This addition helps with website development and documentation rendering. 
+The first version of nbdev already contained some of these features, however, 
+they were rudimentary and required several workarounds. In the second version nbdev added Quarto to its core. 
+
+## Conclusion
+
+Development with nbdev and Quarto can increase the productivity of many teams, helping to document and 
+tell the story of your software. These tools also expand the possibilities of software development, as 
+was the case with the already exemplified [Ipyannotator](https://github.com/palaimon/ipyannotator).
+
+Like any tool, it also has its tradeoffs. One of them is the lack of auto-complete in Jupyter notebooks, 
+something that can be avoided by using the visual code extension. Another problem is that Jupyter notebook 
+writes json files, a format that makes git conflict resolution difficult due to extra metadata alongside the code. 
+Making conflict resolution difficult minimizes the chances of big teams working on the same software.
+
+Fortunately, the addition of Quarto shows that nbdev already plans to use other files besides Jupyter notebooks 
+in its development core. This enables large teams to develop software with literate programming, 
+decreasing the main tradeoff.
+
+If you are interested in trying nbdev you can check the following reference: 
+[nbdev+Quarto: A new secret weapon for productivity](https://www.fast.ai/2022/07/28/nbdev-v2/).
+If you're curious about Jupyter notebooks code for software development just check 
+[Ipyannotator code](https://github.com/palaimon/ipyannotator/tree/main/nbs).

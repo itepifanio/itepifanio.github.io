@@ -1,0 +1,49 @@
+---
+layout: post
+title: "2022 Recap"
+date: 2023-01-01 13:09:20 -0300
+categories: [English]
+---
+
+2022 was a long year. Tech market started to cool down and even some 
+big techs started to layoff people, some friends got caught in the middle of this but 
+were able to find a new place to work. Brazilian politics had a huge battle for democracy 
+(that we fortunately win). I learn a lot of challenging things on the AI field.
+
+In 2021 my focus on AI study was on data annotation and labelling. In 2022 I helped to customize and extend AI products focused on computer vision and object detection. This kind of projects requires a lot of efforts in the pre and pos processing, and a lot of additional steps, like [data versioning](https://en.wikipedia.org/wiki/Data_Version_Control), to guarantee reproducibility.
+
+## Events
+
+I started to be engaged with the tech community by giving talks and organizing events. 
+
+Talked:
+- At [Python Nordeste 2022](https://2022.pythonnordeste.org/) (biggest Python event in the northeast of Brazil) 
+about my work on the open source lib [Ipyannotator](https://github.com/palaimon/ipyannotator) and how it can be 
+used for terrestrial traffic annotation, using the [CityCount project](https://palaimon.io/projects.html#sec-cc) 
+as an example. 
+- [V PHPRN meetup](https://www.instagram.com/p/CgSt2CgLTyQ/), returning to the in-person events. I talked about my 
+experience with the [TALL stack](https://tallstack.dev/).
+
+Organized:
+- The [V PHPRN meetup](https://www.instagram.com/p/CgSt2CgLTyQ/)
+- The [IX Meetup GrupyRN](https://www.instagram.com/p/CiVN31LrtaR/)
+- The [Python Day 2022](https://www.instagram.com/p/CkgPmVBOG4j/)
+- The [PHPeste 2022](https://phprn.github.io/phpeste/)
+
+It was my first year organizing events and managing the tech community. It is so much more work than I tought initially, 
+talking with the community, designing things, updating websites and social media, scheduling the space, searching for sponsors, ordering the food, and generating certificates. I learned a lot about accessibility, there's always room for improvement but I think we were in the right direction at the Python Day, with food for everyone (vegan, gluten-free, milk-free, sugar-free), no applauses for people with a sensibility to high sounds, and efforts to have a space that embrace all genders, races, and sexualities.
+
+## Exploring
+
+- Learned about [computer graphics](https://en.wikipedia.org/wiki/Computer_graphics) by developing a simple C++ raytracer that 
+read a `.xml` file and output a `.ppm` image file with a 3D scene. It was one of the most challenging projects for me because 
+I have [aphantasia](https://en.wikipedia.org/wiki/Aphantasia), not been able to draw mental images was a issue to debug camera 
+projections and abstract some angles calculations.
+- Studied about metrics that measure the quality of projects with object orientation. The [Tinylog](https://tinylog.org/v2/) (Java version) quality was investigated by measuring its [Cyclometic complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity), [fan-out](https://en.wikipedia.org/wiki/Fan-out_(software)#Software_design_and_quality_assurance) and other simple metrics.
+- Published 4 posts on the [Palaimon Blog](https://blog.palaimon.io/)
+- Published a paper about Ipyannotator on the [Journal of Open Software (JOSS)](https://joss.theoj.org/papers/10.21105/joss.04480)
+- Took more responsabilities as a data engineer. I developed an [intake](https://intake.readthedocs.io/en/latest/) plugin 
+to help the team to [versionate its data and experiments](https://en.wikipedia.org/wiki/Data_Version_Control). 
+- Learn lots of usages and pain of OpenCV by working on the [CityCount study](https://blog.palaimon.io/posts/citycount-finalization/). This project was a good test case for the data versioning intake solution and Ipyannotator lib.
+- Tested, refactored and extended AI solutions for [Multiple Object Tracking (MOT)](https://en.wikipedia.org/wiki/Multiple_object_tracking). Most of the AI project don't test its code which makes difficult to refactor and extend them, 
+for our use case it was necessary to write tests before touching the code, increasing the quality of the software and the understanding of the code.

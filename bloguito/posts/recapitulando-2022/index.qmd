@@ -1,0 +1,71 @@
+---
+layout: post
+title: "2022 Recap"
+date: 2023-01-01 13:09:20 -0300
+categories: [Portuguese]
+---
+
+2022 foi um ano longo. O mercado de tecnologia começou a esfriar e até as grandes empresas começaram a 
+demitir em massa, alguns amigos foram atingidos pelas demissões, mas ainda bem que todos já encontraram 
+um novo lugar para trabalhar. A política brasileira batalhou por sua frágil democracia 
+(e ainda bem que ganhou, mesmo que por pouco). Eu também aprendi um monte de coisas sobre a área de 
+inteligência artificial (IA).
+
+Em 2021 eu estudei tópicos de IA como anotações de dados e taggeamento. Em 2022 eu ajudei a customizar e 
+estender produtos de IA com foco em visão computacional e detecção de objetos. Esse tipo de projeto requer 
+um esforço grande no pré e pós processamento dos dados, além de passos adicionais, como o 
+[versionamento de dados](https://en.wikipedia.org/wiki/Data_Version_Control), 
+para garantir a reproducibilidade dos experimentos.
+
+## Eventos
+
+Engajei ainda mais com a comunidade de tecnologia, organizando eventos e palestrando.
+ 
+Palestrei:
+- Na [Python Nordeste 2022](https://2022.pythonnordeste.org/) (maior evento Python do Nordeste) 
+sobre meu trabalho como desenvolvedor open source da biblioteca 
+[Ipyannotator](https://github.com/palaimon/ipyannotator) e como ela pode ser utilizada para anotações 
+de tráfego terrestre, utilizando o [projeto CityCount](https://palaimon.io/projects.html#sec-cc) 
+como exemplo
+- [V PHPRN meetup](https://www.instagram.com/p/CgSt2CgLTyQ/), retornando os eventos presenciais. Eu falei 
+sobre minha experiência com a [TALL stack](https://tallstack.dev/).
+
+Organizei:
+- [V PHPRN meetup](https://www.instagram.com/p/CgSt2CgLTyQ/)
+- [IX Meetup GrupyRN](https://www.instagram.com/p/CiVN31LrtaR/)
+- [Python Day 2022](https://www.instagram.com/p/CkgPmVBOG4j/)
+- [PHPeste 2022](https://phprn.github.io/phpeste/)
+
+Esse foi meu primeiro ano organizando eventos e gerenciando comunidades de tecnologias. Foi mais trabalhoso 
+do que pensei inicialmente: falar com a comunidade, fazer artes, atualizar sites e mídias sociais, 
+agendar espaços, ir atrás de patrocinadores, pedir comida e gerar certificados. Eu aprendi bastante sobre 
+acessibilidade, sempre tem espaço pra melhorar, mas eu acho que estavamos na direção certa na organização 
+do Python Day, onde garantimos comida para todos (incluindo veganos, pessoas alérgicas a gluten, leite e 
+diabéticos), excluimos os aplausos do evento para incluir pessoas sensiveis a sons, e tivemos uma escuta 
+ativa e esforço para criar um espaço que inclua todos os gêneros, raças e sexualidade.
+
+## Explorações
+
+- Aprendi sobre [computação gráfica](https://en.wikipedia.org/wiki/Computer_graphics) 
+desenvolvendo um simples raytracer em C++ que lê um arquivo `.xml` e retorna uma imagem `.ppm` com 
+uma cena 3D. Foi um dos projetos mais desafiadores que já fiz principalmente porque tenho 
+[aphantasia](https://en.wikipedia.org/wiki/Aphantasia), não conseguir projetar imagens mentais 
+atrapalhou na hora de debugar as projeções de câmera e abstrair calculos dos ângulos.
+- Estudei sobre métricas de qualidade de software com foco em orientação objeto. Utilizei a versão Java 
+da biblioteca [Tinylog](https://tinylog.org/v2/) para analisar métricas como 
+[complexidade ciclomática](https://en.wikipedia.org/wiki/Cyclomatic_complexity), 
+[fan-out](https://en.wikipedia.org/wiki/Fan-out_(software)#Software_design_and_quality_assurance) e 
+entre outras
+- Publiquei 4 postagens no [blog Palaimon](https://blog.palaimon.io/)
+- Publiquei um artigo sobre o Ipyannotator no [Journal of Open Software (JOSS)](https://joss.theoj.org/papers/10.21105/joss.04480)
+- Fui atribuido a mais responsabilidades como engenheiro de dados. Desenvolvi um plugin 
+[intake](https://intake.readthedocs.io/en/latest/) 
+para judar a equipe com o 
+[versionamento de dados e experimentos](https://en.wikipedia.org/wiki/Data_Version_Control). 
+- Aprendi os usos e dores da biblioteca OpenCV trabalhando no 
+[projeto CityCount](https://blog.palaimon.io/posts/citycount-finalization/)
+Esse projeto foi um bom caso de teste tanto pra solução de versionamento de dados que utiliza o intake, 
+quanto para a biblioteca Ipyannotator
+- Testei, refatores e estendi soluções IA para [Detecção de multiples objetos (MOT)](https://en.wikipedia.org/wiki/Multiple_object_tracking). A maioria das soluções IA não testa seu código, dificultando sua refatoração e estenção, 
+para o nosso caso de uso foi necessário escrever vários testes antes de modificar o código, o que melhorou não só 
+a qualidade do software quanto o entendimento do código

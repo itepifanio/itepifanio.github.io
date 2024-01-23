@@ -1,0 +1,77 @@
+---
+title:  "PyCon US 2023"
+date:   2023-07-11 13:03:00 -0300
+author: Ítalo Epifânio
+categories: [English]
+---
+
+## PyCon US 2023
+
+PyCon US is the largest annual convention for the Python programming language. 
+The event took place from April 19 to April 27 in [Salt Lake City, Utah](https://goo.gl/maps/2V9ofSHdHciUxRcg7).
+I was thrilled to contribute with a tutorial, attend insightful talks, and checked 
+the PyCon news announcements.
+
+![](conference_passport.jpeg)
+
+News, such as the [PyPI organizations feature](https://blog.pypi.org/posts/2023-04-23-introducing-pypi-organizations/), 
+and retrospectives like the one conducted by [Guido Van Rossum](https://en.wikipedia.org/wiki/Guido_van_Rossum) 
+were key part of the conference.
+
+## Talks
+
+PyCon has two tracks of talks, one in English and another in Spanish called "Las Charlas".
+All of them will be available on YouTube in near future. You can find them [here](https://www.youtube.com/c/pyconus).
+
+The most fun talk I attended was on how to [Create interactive games using MicroPython and electronics](https://us.pycon.org/2023/schedule/presentation/142/). 
+It introduced me to the new world of MicroPython and how to program games using a board 
+called [micro:bit](https://makecode.microbit.org/). The micro:bit board was design for children, 
+it doesn't have pins or connectors that can harm them and it already comes with a lot of pre-programmed 
+features. Check out the 30-second "Chase the dot" video (sound on) and see how much fun is to program these small games.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NVJH6F-3XuU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## Tutorials
+
+It was gratifying to contribute to the event by tutoring advanced topics in Jupyter Notebooks. 
+The tutorial [Going beyond with Jupyter Notebooks: Write your first package using literate programming](https://us.pycon.org/2023/schedule/presentation/2/) 
+was well-attended and presented the usage of nbdev for writing Python packages using Jupyter notebooks. 
+The tutorial also introduced advanced topics like testing, code quality tools, and how to build UIs for Jupyter notebooks.
+All the tooling presented is used in Palaimon's workflow to build and document its products.
+The presentation [is available here](https://github.com/itepifanio/going-beyond-with-jupyter-notebooks/blob/main/presentation/presentation.pdf).
+
+![](tutorial_room.jpeg)
+
+## Announcements
+
+The biggest announcement was the introduction of organization accounts for the Python Packaging Index (PyPI), which was one of the 
+most requested features of the platform. PyPI will now be easier to use with large teams that need to 
+manage sub-teams and multiple packages. This feature will be free for community projects and available at 
+a small fee for corporate projects.
+
+This is crucial for the financial sustainability of PyPI, as the number of downloads has been growing (57% in the last period) and 
+its infrastructure is currently subsidized by AWS. The Python Software Foundation (PSF) has been working diligently on the 
+financial sustainability of the organization. They announced that PyCon US now accounts for 75% of its annual income 
+(previously was around 90%) and reported a pilot partnership with an educational program that may serve as an 
+additional source of income for the organization.
+
+## Keynotes
+
+The keynote "Python: The People's Programming Language" by Carol Willing really stood out to me.
+Carol delved into distributed computing and network concepts to discuss resilient community networks.
+It was an intimate talk that touched on personal challenges and community accomplishments.
+
+![](carol_willing_keynote.jpeg)
+
+Guido Van Rossum, the creator of Python, initially played a trick on us with the talk 
+"Feed CPython to ChatGPT: can we use AI to make Python faster?". He later discussed 
+previous PyCon US events, shared stories, and provided insights about Python's past and future.
+
+![](guido_keynote.jpeg)
+
+## Conclusion
+
+PyCon is a diverse and inclusive conference that embraces the community. The tutorials, 
+talks, and keynotes are awesome, but the best part of the event is connecting with people, 
+sharing knowledge, and discussing topics you're passionate about. The biggest challenge of the 
+conference is making the most of your time there.
