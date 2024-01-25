@@ -1,0 +1,541 @@
+[
+  {
+    "objectID": "posts/recap-2022/index.html",
+    "href": "posts/recap-2022/index.html",
+    "title": "2022 Recap",
+    "section": "",
+    "text": "2022 was a long year. Tech market started to cool down and even some big techs started to layoff people, some friends got caught in the middle of this but were able to find a new place to work. Brazilian politics had a huge battle for democracy (that we fortunately win). I learn a lot of challenging things on the AI field.\nIn 2021 my focus on AI study was on data annotation and labelling. In 2022 I helped to customize and extend AI products focused on computer vision and object detection. This kind of projects requires a lot of efforts in the pre and pos processing, and a lot of additional steps, like data versioning, to guarantee reproducibility."
+  },
+  {
+    "objectID": "posts/recap-2022/index.html#events",
+    "href": "posts/recap-2022/index.html#events",
+    "title": "2022 Recap",
+    "section": "Events",
+    "text": "Events\nI started to be engaged with the tech community by giving talks and organizing events.\nTalked: - At Python Nordeste 2022 (biggest Python event in the northeast of Brazil) about my work on the open source lib Ipyannotator and how it can be used for terrestrial traffic annotation, using the CityCount project as an example. - V PHPRN meetup, returning to the in-person events. I talked about my experience with the TALL stack.\nOrganized: - The V PHPRN meetup - The IX Meetup GrupyRN - The Python Day 2022 - The PHPeste 2022\nIt was my first year organizing events and managing the tech community. It is so much more work than I tought initially, talking with the community, designing things, updating websites and social media, scheduling the space, searching for sponsors, ordering the food, and generating certificates. I learned a lot about accessibility, there’s always room for improvement but I think we were in the right direction at the Python Day, with food for everyone (vegan, gluten-free, milk-free, sugar-free), no applauses for people with a sensibility to high sounds, and efforts to have a space that embrace all genders, races, and sexualities."
+  },
+  {
+    "objectID": "posts/recap-2022/index.html#exploring",
+    "href": "posts/recap-2022/index.html#exploring",
+    "title": "2022 Recap",
+    "section": "Exploring",
+    "text": "Exploring\n\nLearned about computer graphics by developing a simple C++ raytracer that read a .xml file and output a .ppm image file with a 3D scene. It was one of the most challenging projects for me because I have aphantasia, not been able to draw mental images was a issue to debug camera projections and abstract some angles calculations.\nStudied about metrics that measure the quality of projects with object orientation. The Tinylog (Java version) quality was investigated by measuring its Cyclometic complexity, fan-out and other simple metrics.\nPublished 4 posts on the Palaimon Blog\nPublished a paper about Ipyannotator on the Journal of Open Software (JOSS)\nTook more responsabilities as a data engineer. I developed an intake plugin to help the team to versionate its data and experiments.\nLearn lots of usages and pain of OpenCV by working on the CityCount study. This project was a good test case for the data versioning intake solution and Ipyannotator lib.\nTested, refactored and extended AI solutions for Multiple Object Tracking (MOT). Most of the AI project don’t test its code which makes difficult to refactor and extend them, for our use case it was necessary to write tests before touching the code, increasing the quality of the software and the understanding of the code."
+  },
+  {
+    "objectID": "posts/meu-ano-2021/index.html",
+    "href": "posts/meu-ano-2021/index.html",
+    "title": "Meu ano de 2021",
+    "section": "",
+    "text": "Uma revisão do meu ano de 2021. Pra mim foi um ano de tirar o mofo de algumas paredes: sai de um kitnet para um apartamento com dois quartos (um só pra escritório :) ), mudei de emprego, adotei um novo projeto open source."
+  },
+  {
+    "objectID": "posts/meu-ano-2021/index.html#eventos",
+    "href": "posts/meu-ano-2021/index.html#eventos",
+    "title": "Meu ano de 2021",
+    "section": "Eventos",
+    "text": "Eventos\nParticipei de poucos eventos em 2021. Como desenvolvedor PHP eu tentei ajudar a organizar o PHPeste, mas infelizmente o evento não saiu do papel. Realizar um evento online é muito mais complicado, todo o meu respeito a quem fez acontecer!\nComo participante eu estive na Python Nordeste e Python Brasil.\nNa Python Nordeste eu só consegui ver os keynotes, tanto o da Ana Paula, quanto o da Clara Nobre. Foram duas palestras importantes pra discutir comunidade e inclusão.\nNa Python Brasil eu participei mais ativamente, vi todos os Keynotes, partipei de mesa de conversa e das sprints. Vi a palestra da Débora Azevedo sobre a Python Software Foundation e aprendi bastante sobre a organização por trás do Python. Participei da sprint do Querido Diário e adicionei o crawler para o diário municipal da minha cidade natal Pau dos Ferros/RN."
+  },
+  {
+    "objectID": "posts/meu-ano-2021/index.html#hacktoberfest",
+    "href": "posts/meu-ano-2021/index.html#hacktoberfest",
+    "title": "Meu ano de 2021",
+    "section": "Hacktoberfest",
+    "text": "Hacktoberfest\nO crawler do Querido Diário foi uma das minhas contribuições pro Hacktoberfest. Foi minha quinta participação no evento.\nAlém do Querido Diário, contribui também para o WireUI, o projeto de um amigo que disponibiliza inputs customizáveis e simples para uso com o Laravel e Livewire (olhem e roubem o template de documentação dele, lindão!)."
+  },
+  {
+    "objectID": "posts/meu-ano-2021/index.html#explorações",
+    "href": "posts/meu-ano-2021/index.html#explorações",
+    "title": "Meu ano de 2021",
+    "section": "Explorações",
+    "text": "Explorações\n\nAdotei o querido diário como projeto open source. Sugeri adicionar o projeto a disciplina de ciências de dados da UFRN e estou ajudando dois grupos a trabalharem com o projeto.\nComo desenvolvedor PHP fiz umas coisinhas bem legais:\n\nAjudei a fazer várias refatorações em um projeto legado do trabalho, saindo de pouco mais de 100 testes pra mais de 450 em menos de 05 meses\nDesenvolvi uma funcionalidade super legal de geolocalização. Um vendedor podia atender/visualizar/interagir com clientes de acordo com sua localização e áreas assignadas a ele (que eram desenhadas sob um mapa). Isso merece um post, tá no meu roadmap :p\nDesenvolvi um sistema de workflow com regras lógicas de and/or que permitia gerentes criarem fluxos como: se um cliente tivesse seu status atualizado para “esperando design” uma nova task para os designers era criada; ou se um cliente tivesse o seu pagamento aprovado um sms era enviado a ele.\n\nVirei um pesquisador e programador Python, hehe, e estou ajudando a desenvolver o Ipyannotator um anotador que ajuda a construir o arcabouço para projetos de machine learning em notebooks jupyter. Fazem dois meses que estou no projeto, mas já fiz umas coisinhas bem legais.\n\nAprendi muito sobre desenvolvimento para notebooks jupyter. Principalmente sobre a biblioteca nbdev que permite a construção de bibliotecas python utilizando “programação letrada”. Além das bibliotecas de desenvolvimento de interfaces gráficas para notebooks jupyter: ipycanvas, ipywidgets.\nRefatorei todo o sistema de anotação para diminuir o acoplamento dos anotadores. Isso resultou em uma nova camada de estados para cada um dos anotadores. A solução é bem legal, usa o Pydantic para validação dos dados e o PyPubSub para o sistema de eventos GUI.\nSe você se interessar pelo projeto eu desenvolvi também um tutorial mostrando como um construir um novo anotador para ele.\n\nNa faculdade eu:\n\nCompliquei desenvolvi uma arquitetura para comunicação entre um sistema web e um sistema de câmeras para controle e gerenciamento de filas do RU. A ideia é que câmeras tiram fotos a cada 30 segundos e atualizam o sistema que: processa o nível da fila, descarta a imagem e envia as informações para uma API. Essa API permite que os alunos visualizem o quão cheia tá a fila do RU naquele momento.\nAprendi sobre RMI e Middlewares. Como prova de conceito de middlewares utilizei o sistema Fiware para desenvolver uma aplicação que permitia que canais de TV cadastrassem seus filmes (com o gênero de filme), usuários de TV se registrassem para receber notificação de algum gênero de filme e fosse notificado minutos antes do filme começar.\nDesenvolvi algumas soluções pro jogo dos 8 números.\nAprendi bastante sobre tópicos de especificação e verificação de programas usando o Maude e Atelier B.\nImplementei o algoritmo Dsatur para a coloração de grafos e defini que queria trabalhar com isso no TCC.\nIniciei o TCC."
+  },
+  {
+    "objectID": "posts/programacao-letrada/index.html",
+    "href": "posts/programacao-letrada/index.html",
+    "title": "Programação letrada com Jupyter Notebook e Nbdev",
+    "section": "",
+    "text": "O ambiente de desenvolvimento Jupyter notebook é muito popular entre a comunidade científica. Com essa ferramenta você consegue escrever texto em formato markdown e código Python (R ou Julia) no mesmo arquivo, algo que pode melhorar a legibilidade e entendimento do seu programa. Esse paradigma, que mistura texto e código, é chamado de programação letrada.\nUm exemplo de Jupyter notebook pode ser vista na imagem abaixo:\nProgramação letrada é um paradigma muito bem conceituado, formalmente discutido por muitos pesquisadores respeitados mundialmente como o Donald Knuth. Ao mesmo tempo, Jupyter notebooks são considerados ineficientes para o desenvolvimento de software. Essa controversia levou a criação da famosa palestra “Eu não gosto de notebooks”, respondida por outra palestra intitulada “Eu gosto de Jupyter notebooks” que gerou bastante drama na comunidade Python.\nJupyter notebooks tem sido limitados a exploração de dados, pequenos scripts e materiais educacionais. A recente introdução da Nbdev, uma biblioteca python, expandiu as possibilidades desses notebooks. Nbdev permite o desenvolvimento e distribuição de pacotes python enquanto se beneficia do paradigma de programação letrada, permitindo a execução de testes, documentação do software em tempo real (unindo texto e código), publicação da documentação como arquivos estáticos ou simplesmente o desenvolvimento de material técnico.\nNbdev tem se provado útil no desenvolvimento de grandes e sérios projetos como o FastAi. A utilização da biblioteca Nbdev com Jupyter notebooks permite o desenvolvimento de softwares com qualidade e com os benefícios da programação letrada."
+  },
+  {
+    "objectID": "posts/programacao-letrada/index.html#experiência",
+    "href": "posts/programacao-letrada/index.html#experiência",
+    "title": "Programação letrada com Jupyter Notebook e Nbdev",
+    "section": "Experiência",
+    "text": "Experiência\nMinha primeira experiência com Nbdev foi a de estranhamento. Trabalhar com Jupyter notebooks para desenvolvimento sério de software não me parecia natural, algo esperado, afinal é um novo paradigma de programação.\nA ferramenta em que estou trabalhando atualmente, Ipyannotator, é um framework de anotações open source que contém interfaces gráficas que funcionam no Jupyter notebook. O desenvolvimento do Ipyannotator só foi possível graças a ferramenta Nbdev que permitiu o time testar o software em notebooks e exportar o código como uma biblioteca python.\n\nDepois de um ano desenvolvendo software com Jupyter notebook eu sinto que isso melhorou minha produtividade\n\nEsse paradigma de desenvolvimento de software me permitiu manter a minha documentação atualizada, uma vez que a documentação está naturalmente acima do meu bloco de código Python. O paradigma também reduziu o lapso mental de voltar a um código antigo, facilitando o entendimento do código uma vez que decisões prévias estavam documentadas em blocos markdown."
+  },
+  {
+    "objectID": "posts/programacao-letrada/index.html#quarto",
+    "href": "posts/programacao-letrada/index.html#quarto",
+    "title": "Programação letrada com Jupyter Notebook e Nbdev",
+    "section": "Quarto",
+    "text": "Quarto\nNo dia 28 de Julho, Nbdev lançou sua segunda versão, incorporando outra ferramenta open source no seu arsenal: Quarto. Quarto é uma ferramenta que permite a criação de conteúdo técnico utilizando Python, R ou Julia, utilizando diversos tipos de arquivo, seja markdown, Jupyter notebooks, R notebooks e permitindo exportar esses arquivos como arquivos, websites, blogs, HTML, PDFs, EPubs e até slides.\n\nQuarto é uma solução completa para escrever qualquer material técnico, utilizando as ferramentas que você já conhece.\n\nEssa ferramenta é tão legal que estou planejando migrar o meu blog pessoal de Jekyll para Quarto. O design clean, de fácil usabilidade e com a funcionalidade de executar código embutido em blocos de texto, se encaixa perfeitamente em qualquer requisito de escrita técnica.\nNbdev notou o quão poderoso Quarto pode ser. Essa adição do Quarto ao core do Nbdev ajudou a renderizar melhor sites e documentações. A primeira versão da biblioteca Nbdev já continha essas funcionalidades, mas elas eram rudimentares e precisavam de diversas gambiarras."
+  },
+  {
+    "objectID": "posts/programacao-letrada/index.html#conclusão",
+    "href": "posts/programacao-letrada/index.html#conclusão",
+    "title": "Programação letrada com Jupyter Notebook e Nbdev",
+    "section": "Conclusão",
+    "text": "Conclusão\nDesenvolvimento com Nbdev e Quarto pode melhorar a produtividade de diversos times, ajudando a documentar e contar a história do seu código. Essas ferramentas ajudam a expandir as possibilidades de desenvolvimento de software, assim como foi o caso do já exemplificado Ipyannotator.\nComo qualquer ferramenta, Nbdev também tem lados negativos. Um deles é a falta do auto completar em Jupyter notebooks, algo que pode ser remediado com a utilização de extensões do Visual Code, por exemplo. Outro problema é que, por conta dos Jupyter notebooks serem escritos em formato json, um formato que dificulta a resolução de conflitos git por conta de todos os metadados extras. Dificultar a resolução de conflitos minimiza as chances de grandes equipes de trabalhar no mesmo software.\nFelizmente, a adição de Quarto mostra que Nbdev já planeja dar suporte a outros tipos de arquivos além de Jupyter notebooks. Isso permitiria que times maiores conseguissem desenvolver software com programação letrada, diminuindo o maior defeito da ferramenta, que é a resolução de conflitos.\nSe você se interessou em tentar usar Nbdev você pode checar as seguintes referências: Nbdev+Quarto: Uma nova arma secreta de produtividade.\nSe ficou curioso sobre como é o código Jupyter notebook para desenvolvimento de software você pode olhar o código do Ipyannotator.\nPost originalmente postado no blog Palaimon: https://blog.palaimon.io/posts/literate-programming-nbdev/"
+  },
+  {
+    "objectID": "posts/pyne-2023/index.html",
+    "href": "posts/pyne-2023/index.html",
+    "title": "Revisitando a Python Nordeste 2023",
+    "section": "",
+    "text": "A edição 2023 da Python Nordeste aconteceu na UFBA de Salvador nos dias 22 a 24 de setembro. Três dias coloridos com as fitinhas do Bonfim, imersos em Python & comunidade e finalizados com poesia a galope."
+  },
+  {
+    "objectID": "posts/pyne-2023/index.html#sexta-feira",
+    "href": "posts/pyne-2023/index.html#sexta-feira",
+    "title": "Revisitando a Python Nordeste 2023",
+    "section": "Sexta-feira",
+    "text": "Sexta-feira\nIniciando a tarde, além do credenciamento tivemos uma mesa de abertura “Yabás das Ciências: representações femininas do conhecimento ancestral e científico”, discutindo a representação preta na academia e computação. No fim do dia tivemos a apresentação cultural do grupo Mãos no couro apresentando um samba como nunca vimos."
+  },
+  {
+    "objectID": "posts/pyne-2023/index.html#sábado",
+    "href": "posts/pyne-2023/index.html#sábado",
+    "title": "Revisitando a Python Nordeste 2023",
+    "section": "Sábado",
+    "text": "Sábado\nSábado foi o dia mais cheio de atividades, com dois keynotes. O Matheus Moreira falou sobre dataficação, dataismo & colonialismo digital, discutindo o rastreio de dados, os limites da privacidade e como isso reforça práticas coloniais como o extrativismo predatório (só que dos dados). Já Anicely Santos apresentou a música “A Natureza das coisas” em uma versão só sua, envolvendo todo o processo de comunidade e finalizando com a citação “Quando alguém te dá um punhado de farinha, ela está te dando um futuro”."
+  },
+  {
+    "objectID": "posts/pyne-2023/index.html#domingo",
+    "href": "posts/pyne-2023/index.html#domingo",
+    "title": "Revisitando a Python Nordeste 2023",
+    "section": "Domingo",
+    "text": "Domingo\nTarcizio Silva apresentou um punhado de suas pesquisas com o keynote sobre racismo algoritmico, mostrando como a Inteligência Artificial tem viés e pode reforçar o racismo estrutural. Para encerrar o evento o nosso Humberto declamou sua tradicional Galope a beira-mar."
+  },
+  {
+    "objectID": "posts/pyne-2023/index.html#além-dos-keynotes",
+    "href": "posts/pyne-2023/index.html#além-dos-keynotes",
+    "title": "Revisitando a Python Nordeste 2023",
+    "section": "Além dos keynotes",
+    "text": "Além dos keynotes\n\nAprendemos que dendê é tão versátil que dá pra fazer até brigadeiro!\nOuvimos da Dandara que análise de dados é coisa de gente fofoqueira\nTivemos aula de vogue da Alynne\nE claro que tivemos contribuições de membros do GruPy-RN: a Ryllari organizou a vida de todo mundo com Celery, o Ítalo (estranho falar de mim na terceira pessoa) ensinou a publicar pacotes python com Jupyter notebooks, além da Gabi e Raquel que mostraram o que é feature flags\n\nTiramos uma foto com algumas das pessoas de Natal que foram pro evento (as demais ou correram pra comer na hora do almoço ou viajaram mais cedo no domingo):\n\n\n\nDa esquerda pra direita: Vinícius Mendes, Ítalo Epifânio, Andressa Lima, Ryllari Costa e Gabriela Cavalcante"
+  },
+  {
+    "objectID": "posts/pyne-2023/index.html#novidades",
+    "href": "posts/pyne-2023/index.html#novidades",
+    "title": "Revisitando a Python Nordeste 2023",
+    "section": "Novidades",
+    "text": "Novidades\nFico muito feliz em anunciar que Natal vai ser a sede da próxima Python Nordeste! São muitas ideias pra uma edição com a cara da cidade e da nossa comunidade. Já estamos planejando a identidade visual, visitando lugares pro próximo evento e já temos até um cronograma inicial pra organizar tudo.\n\n\n\nMomento após anúncio da nova sede (Anicely havia dado spoilers minutos antes :P). Foto roubada do Xima"
+  },
+  {
+    "objectID": "posts/tall-uma-nova-stack-para-php/index.html",
+    "href": "posts/tall-uma-nova-stack-para-php/index.html",
+    "title": "TALL - Uma nova stack para PHP",
+    "section": "",
+    "text": "Tailwind, Alpinejs, Laravel e Livewire (TALL) é uma solução para desenvolvedores full stack construída pela comunidade laravel que foca principalmente no desenvolvimento backend, mas que permite o desenvolvimento de sistemas ditos “reativos”.\nA stack TALL é ótima para desenvolvimento rápido de sistemas web. A facilidade de estilizar páginas com o Tailwind, o poder da reatividade do Alpinejs, aliado com a componentização do Livewire, realmente dá um boost de produtividade no desenvolvimento.\nNesse artigo falarei um pouco sobre as 4 tecnologias e minha experiência com a stack."
+  },
+  {
+    "objectID": "posts/tall-uma-nova-stack-para-php/index.html#livewire",
+    "href": "posts/tall-uma-nova-stack-para-php/index.html#livewire",
+    "title": "TALL - Uma nova stack para PHP",
+    "section": "Livewire",
+    "text": "Livewire\nÉ muito comum encontrar sistemas que utilizam Laravel em conjunto com o Vuejs. A utilização de componentes Vue remove muito da responsabilidade da blade, por exemplo, é comum encontrarmos blades do tipo:\n@extends(‘layouts.base’)\n\n@section(‘content’)\n    &lt;some-vue-component&gt;&lt;/some-vue-component&gt;\n@endsection\nCaleb, criador do Alpinejs e Livewire, chama esses componentes de “assassinos de blades”. Vue é uma ferramenta poderosa, mas o tempo gasto tratando eventos assíncronos, adicionando v-ifs, atualizando bibliotecas, atrasa o desenvolvimento e torna a experiência um pouco maçante. Parte do atraso mencionado se deve a falta de testes unitários, eu, particularmente, não conheço ninguém que utilize testes unitários com Vue e isso é bem problemático quando encontramos blades e blades como a exibida acima.\nQuanto mais se trabalha com Vue e Laravel mais sentimos a necessidade de escrever um código javascript melhor, aprender Vuex, utilizar testes unitários nele usando Jest ou outra lib. Vamos adicionando camadas e camadas de complexidade para algo que deveria ser simples: requisição e exibição de dados (o pior dos casos é quando regra de negócio entra em front-end, debugar um erro em um código assim é uma grande dor de cabeça).\nCaleb propõe uma solução voltada mais ao backend, intrínseca ao Laravel, o Livewire. É difícil definir a ferramenta, mas é como se escrevessemos código Laravel como componentes. A definição oficial é: Livewire is a full-stack framework for Laravel that makes building dynamic interfaces simple, without leaving the comfort of Laravel..\nO Livewire é ótimo para situações em que o nosso usuário interage com a tela e espera uma ação imediata, ele irá fazer uma requisição ajax e atualizar o front automaticamente (como se a página fosse reativa). Um exemplo, visto abaixo, retirado do artigo do Branick.\n\n\n\nSearch with Laravel Livewire\n\n\nO Livewire é uma ferramenta muito poderosa que permite reaproveitar código através dos componentes, além de facilitar e agilizar o desenvolvimento de interfaces ricas, sem ter que chamar bibliotecas JS externas, sem sair do arcabouço Laravel e podendo realizar testes unitários nos componentes. Entretanto todas essas facilidades tem um preço, que é o custo de renderizar novamente HTML toda vez que se faz uma requisição. O Livewire não é uma “bala de prata” e deve ser utilizado com cautela."
+  },
+  {
+    "objectID": "posts/tall-uma-nova-stack-para-php/index.html#tailwind",
+    "href": "posts/tall-uma-nova-stack-para-php/index.html#tailwind",
+    "title": "TALL - Uma nova stack para PHP",
+    "section": "Tailwind",
+    "text": "Tailwind\nO Tailwind é um framework CSS com uma abordagem utility-first , o código CSS é abstraído no HTML como classes. Por exemplo, o código &lt;div style=\"background-color:black; border-radius: 100%\"&gt;&lt;/div&gt; no Tailwind ficaria &lt;div class=\"bg-black round-full\"&gt;&lt;div&gt;.\nO primeiro contato com o framework é estranho porque o HTML se torna extenso de escrever, mas a medida que vamos utilizando vemos o quão ágil é utilizar o Tailwind. As páginas são escritas eficientemente, se inspeciona elemento, muda as classes, copia para o código e em minutos você tem algo funcional que levaria mais tempo para fazer utilizando Bootstrap.\nEsse esquema quase de prototipação de páginas é ótimo para fábricas de software. Uma vez que os desenvolvedores pegam o jeito como o framework se torna fácil pegar um design do Adobe XD e dar vida no HTML."
+  },
+  {
+    "objectID": "posts/tall-uma-nova-stack-para-php/index.html#alpinejs",
+    "href": "posts/tall-uma-nova-stack-para-php/index.html#alpinejs",
+    "title": "TALL - Uma nova stack para PHP",
+    "section": "AlpineJS",
+    "text": "AlpineJS\nO Alpinejs é um microframework JS, reativo, muito parecido com Vue (só que bem mais simples) que facilita manipulações do DOM. Por ter sido criado pela mesma pessoa, o Alpinejs funciona muito bem com integrações com o Livewire. Todos os gargalos de performance encontrados no Livewire eu consegui contornar utilizando o Alpine em conjunto.\nUm exemplo de utilização do Alpine em conjunto com o Tailwind pode ser visto abaixo. Note que o código HTML mantém a estilização e o JS embutido, é muito simples e rápido estilizar e modificar o DOM utilizando as duas ferramentas em conjunto.\n{% include codepen.html hash=“VwvreoP” title=“Simple CRUD” %}\nA curva de aprendizado do framework é muito baixa porque ele é bem pequeno, além de procurar se aproximar bastante da sintaxe do Vue (velho conhecido dos devs fullstack Laravel)."
+  },
+  {
+    "objectID": "posts/tall-uma-nova-stack-para-php/index.html#conclusão",
+    "href": "posts/tall-uma-nova-stack-para-php/index.html#conclusão",
+    "title": "TALL - Uma nova stack para PHP",
+    "section": "Conclusão",
+    "text": "Conclusão\nEstou trabalhando com a stack a cerca de três ou quatro meses, escrevendo uma nova versão de um sistema que antes era feito com Laravel e Vue. O design foi criado no Adobe XD e em questão de uma a duas semanas já tínhamos passado completamente pro Tailwind. A utilização do Livewire foi feita a medida da necessidade, em geral, situações que exigiria requisições ajax ou que apelariamos para o Vue, se tornaram componentes Livewire.\nA impressão é que o novo sistema de componentes blade do Laravel 6 e as novas funcionalidades do Laravel 7 também colaboraram muito para essa nova forma de escrever sistemas, tornando natural codar no Laravel componentizado e associar o Livewire nas blades.\nNo começo do projeto eu não conhecia Livewire, Alpinejs e nem o Tailwind, mas é muito bom sair do conforto com esses três. Como o Tailwind é mais “baixo nível” que o Bootstrap eu acabei aprendendo flexbox e vários outros detalhes de CSS que eu desconhecia. O mesmo aconteceu com o Alpinejs, por ser pequeno boa parte do código feito com ele é JS puro.\nO Tall potencializa as tecnologias básicas que usamos no dia a dia (JS, CSS, PHP) tornando o desenvolvimento bem mais divertido e sem necessidade de adicionar bibliotecas terceiras que acabam complicando a manutenção posterior do sistema. Além disso, o que mais curto na stack, é que se aproveita ao máximo o uso do Laravel."
+  },
+  {
+    "objectID": "posts/pycon-2023/index.html",
+    "href": "posts/pycon-2023/index.html",
+    "title": "PyCon US 2023",
+    "section": "",
+    "text": "PyCon US is the largest annual convention for the Python programming language. The event took place from April 19 to April 27 in Salt Lake City, Utah. I was thrilled to contribute with a tutorial, attend insightful talks, and checked the PyCon news announcements.\n\nNews, such as the PyPI organizations feature, and retrospectives like the one conducted by Guido Van Rossum were key part of the conference."
+  },
+  {
+    "objectID": "posts/pycon-2023/index.html#pycon-us-2023",
+    "href": "posts/pycon-2023/index.html#pycon-us-2023",
+    "title": "PyCon US 2023",
+    "section": "",
+    "text": "PyCon US is the largest annual convention for the Python programming language. The event took place from April 19 to April 27 in Salt Lake City, Utah. I was thrilled to contribute with a tutorial, attend insightful talks, and checked the PyCon news announcements.\n\nNews, such as the PyPI organizations feature, and retrospectives like the one conducted by Guido Van Rossum were key part of the conference."
+  },
+  {
+    "objectID": "posts/pycon-2023/index.html#talks",
+    "href": "posts/pycon-2023/index.html#talks",
+    "title": "PyCon US 2023",
+    "section": "Talks",
+    "text": "Talks\nPyCon has two tracks of talks, one in English and another in Spanish called “Las Charlas”. All of them will be available on YouTube in near future. You can find them here.\nThe most fun talk I attended was on how to Create interactive games using MicroPython and electronics. It introduced me to the new world of MicroPython and how to program games using a board called micro:bit. The micro:bit board was design for children, it doesn’t have pins or connectors that can harm them and it already comes with a lot of pre-programmed features. Check out the 30-second “Chase the dot” video (sound on) and see how much fun is to program these small games."
+  },
+  {
+    "objectID": "posts/pycon-2023/index.html#tutorials",
+    "href": "posts/pycon-2023/index.html#tutorials",
+    "title": "PyCon US 2023",
+    "section": "Tutorials",
+    "text": "Tutorials\nIt was gratifying to contribute to the event by tutoring advanced topics in Jupyter Notebooks. The tutorial Going beyond with Jupyter Notebooks: Write your first package using literate programming was well-attended and presented the usage of nbdev for writing Python packages using Jupyter notebooks. The tutorial also introduced advanced topics like testing, code quality tools, and how to build UIs for Jupyter notebooks. All the tooling presented is used in Palaimon’s workflow to build and document its products. The presentation is available here."
+  },
+  {
+    "objectID": "posts/pycon-2023/index.html#announcements",
+    "href": "posts/pycon-2023/index.html#announcements",
+    "title": "PyCon US 2023",
+    "section": "Announcements",
+    "text": "Announcements\nThe biggest announcement was the introduction of organization accounts for the Python Packaging Index (PyPI), which was one of the most requested features of the platform. PyPI will now be easier to use with large teams that need to manage sub-teams and multiple packages. This feature will be free for community projects and available at a small fee for corporate projects.\nThis is crucial for the financial sustainability of PyPI, as the number of downloads has been growing (57% in the last period) and its infrastructure is currently subsidized by AWS. The Python Software Foundation (PSF) has been working diligently on the financial sustainability of the organization. They announced that PyCon US now accounts for 75% of its annual income (previously was around 90%) and reported a pilot partnership with an educational program that may serve as an additional source of income for the organization."
+  },
+  {
+    "objectID": "posts/pycon-2023/index.html#keynotes",
+    "href": "posts/pycon-2023/index.html#keynotes",
+    "title": "PyCon US 2023",
+    "section": "Keynotes",
+    "text": "Keynotes\nThe keynote “Python: The People’s Programming Language” by Carol Willing really stood out to me. Carol delved into distributed computing and network concepts to discuss resilient community networks. It was an intimate talk that touched on personal challenges and community accomplishments.\n\nGuido Van Rossum, the creator of Python, initially played a trick on us with the talk “Feed CPython to ChatGPT: can we use AI to make Python faster?”. He later discussed previous PyCon US events, shared stories, and provided insights about Python’s past and future."
+  },
+  {
+    "objectID": "posts/pycon-2023/index.html#conclusion",
+    "href": "posts/pycon-2023/index.html#conclusion",
+    "title": "PyCon US 2023",
+    "section": "Conclusion",
+    "text": "Conclusion\nPyCon is a diverse and inclusive conference that embraces the community. The tutorials, talks, and keynotes are awesome, but the best part of the event is connecting with people, sharing knowledge, and discussing topics you’re passionate about. The biggest challenge of the conference is making the most of your time there."
+  },
+  {
+    "objectID": "posts/pt-br-horizontal-lazy-loading/index.html",
+    "href": "posts/pt-br-horizontal-lazy-loading/index.html",
+    "title": "Carregamento lento com scroll horizontal",
+    "section": "",
+    "text": "Recentemente me deparei com o seguinte cenário: um sistema de gerenciamentos de fluxos de trabalho que permite configuração de kanbans, como o da imagem abaixo, sendo que um usuário em particular configurou seu kanban com 38 colunas.\nCada coluna do kanban realizava uma requisição e do jeito que o sistema tinha sido desenvolvido gerava-se 38 requisições assim que a página era carregada, o que acabava espancando o banco de dados e o servidor.\nInicialmente precisavamos diminuir a quantidade de requisições, limitando apenas aos cards visíveis na tela do usuário. Depois precisavamos fazer com que, caso o usuário rolasse para o fim da página de uma vez, as colunas que ficaram visíveis não carregassem a menos que estivessem a um certo tempo visíveis."
+  },
+  {
+    "objectID": "posts/pt-br-horizontal-lazy-loading/index.html#limitando-o-carregamento-aos-cards-visíveis",
+    "href": "posts/pt-br-horizontal-lazy-loading/index.html#limitando-o-carregamento-aos-cards-visíveis",
+    "title": "Carregamento lento com scroll horizontal",
+    "section": "Limitando o carregamento aos cards visíveis",
+    "text": "Limitando o carregamento aos cards visíveis\nO javascript oferece uma API chamada IntersectionObserver que permite monitorar elementos HTML e verificar sua visibilidade na tela. O código abaixo mostra o funcionamento mais básico dela.\nconst onIntersection = (elements) =&gt; {\n    elements.forEach(element =&gt; {\n      if (element.isIntersecting) {\n          console.log(element, 'is visible');\n      }\n  });\n};\n\nconst observer = new IntersectionObserver(onIntersection);\n\nobserver.observe(document.querySelector('.my-elements'));\nA função onIntersection é responsável pela lógica que será aplicada aos elementos visiveis, ela recebe uma lista de elementos e verifica que se forem visiveis (element.isIntersecting) então algo será feito, nesse caso uma mensagem no console é exibida.\nA chamada da API IntersectionObserver é feita e atribuida a variável observer. O objeto observer conseguirá a partir dali observar elementos no HTML e executar uma lógica somente quando eles forem visíveis na tela do usuário. No meu caso, do kanban gigante, isso foi suficiente para limitar as 38 requisições assim que a página carregava para apenas 5, mas caso o usuário rolasse a página rapidamente várias requisições seriam feitas, ou seja, se eu fosse até o fim da página de uma vez as outras 33 requisições seriam chamadas também de uma vez só."
+  },
+  {
+    "objectID": "posts/pt-br-horizontal-lazy-loading/index.html#carregamento-apenas-após-certo-tempo-do-elemento-visível-na-página",
+    "href": "posts/pt-br-horizontal-lazy-loading/index.html#carregamento-apenas-após-certo-tempo-do-elemento-visível-na-página",
+    "title": "Carregamento lento com scroll horizontal",
+    "section": "Carregamento apenas após certo tempo do elemento visível na página",
+    "text": "Carregamento apenas após certo tempo do elemento visível na página\nA API IntersectionObserver tem uma versão 2 que permite a captura de quanto tempo um certo elemento HTML ficou visível na tela e isso resolveria facilmente o problema de carregar o elemento HTML apenas depois de certo tempo. Entretanto, a versão 2 ainda não tem suas implementações compativeis com a maioria dos navegadores.\nNo meu caso específico eu estava utilizando um componente pai que renderizava os 38 elementos filhos e eu não conseguia verificar quando esses 38 elementos filhos terminaram de ser renderizados para observa-los com o InsertersectionObserver, então controlar o tempo que cada elemento ficou visível na tela ficou um pouco mais complicado.\nCada um dos 38 elementos filhos sabiam quando eles mesmos eram renderizados, então conseguia-se utilizar a IntersectionObserver internamente em cada um deles. Utilizando a função setTimeout do javascript consegue-se observação o elemento após um certo tempo especificado em milisegundos.\nTemos 38 elementos ao todo, só que a maioria não é visível na tela e se torna visível ao scrollar, com o delay do setTimeout essa ação leva ainda algum tempo a ser executada. Durante o scroll, quando o elemento visível na tela ainda não disparou o setTimeout especificado e o usuário já scrollou para um elemento seguinte consegue-se remover o timeout do elemento anterior da pilha de execução e então carregar somente o elemento seguinte. O código a seguir mostra essa estratégia.\n&lt;div class=\"border border-black m-1 p-10 min-w-max h-10\"\n       x-data=\"\"\n       x-init=\"() =&gt; {\n           let timeout;\n           let loadColumn = function (elements) {\n               clearTimeout(timeout);\n               \n               timeout = setTimeout(function() {\n                   elements.forEach(element =&gt; {\n                       if (element.isIntersecting) {\n                           // do something\n                           observer.unobserve(element.target);\n                       }\n                   });\n               }, 750);\n           }\n           \n           let observer = new IntersectionObserver(loadColumn);\n           let target = $el;\n           observer.observe(target);\n       }\"&gt;\n  &lt;/div&gt;\nQuando o componente é carregado na página ele já começa a observar a si mesmo utilizando a função loadColumn. Tal função remove os timeouts anteriores (que não foram acionados) da pilha de execução e adiciona um novo timeout que após 750 milisegundos faz algo e remove a observação para não refazer a mesma lógica se o elemento se tornar visível novamente.\nNo meu caso a lógica era a requisição para o servidor então eu só precisava carregar o dado uma vez e depois ignorar se o elemento ficasse visível novamente na página, por isso ele remove a própria observação.\nAchou a sintaxe do código acima estranha? Esse microframework javascript se chama AlpineJS e foi o que utilizei para desenvolver a solução completa. Uma POC mais simples, sem a requisição pro servidor, pode ser vista logo abaixo. Após ficar visível na sua tela os quadrados brancos se tornarão pretos indicando a requisição pro servidor.\n{% include codepen.html hash=“PoKqGPm” title=“Carregamento lento com scroll horizontal” %}\nCaso se interesse por ver uma solução com vanilla javascript a minha referência foi essa."
+  },
+  {
+    "objectID": "awards.html",
+    "href": "awards.html",
+    "title": "Awards",
+    "section": "",
+    "text": "1º Hackathon da UFRN\n\n\n\n\n\n\n\n\n\n\n\nOct 27, 2017\n\n\n\n\n\n\n\n\n\n\n\n\nSecitex 2016\n\n\n\n\n\n\n\n\n\n\n\nDec 1, 2016\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "talks.html",
+    "href": "talks.html",
+    "title": "Talks",
+    "section": "",
+    "text": "Protegendo seu ambiente jupyter e mais um pouco - 10º Meetup GruPy RN Mossoró\n02/12/2023\nEssa palestra discute os elementos de segurança no ambiente de análise de dados, com foco na ferramenta Jupyter notebook e mais especificamente o seu servidor. Foi demonstrado a instalação e uso da ferramenta Jupysec para exibir possiveis problemas de segurança no servidor.\n\n\nUsando Python e dados para desenvolver dashboards, interfaces e aplicações - Nivercon\n07/10/2023\nVocê não precisa saber javascript para desenvolver interfaces reativas. Pessoas que trabalham com dados geralmente tem algum conhecimento em Python e isso é suficiente para desenvolver interfaces poderosas.\nEssa palestra apresentou uma prova de conceito para construção da ferramenta UFRN Cheat Sheet, explorando diversas ferramentas que usam Python para desenvolver interfaces. Foram exploradas as bibliotecas ipywidgets com voilà, Dash, Solara e Streamlit. Por fim, Solara apresentou o melhor caso de uso dentre as ferramentas testadas, apresentando melhor reuso de código e controle de estado que as demais ferramentas.\n\n\nIndo além com Jupyter Notebooks: Desenvolva o seu primeiro pacote python com programação letrada - Python Nordeste 2023\n24/09/2023\nProgramação letrada é um paradigma de programação que incorpora explicações em linguagem natural (como espanhol) junto com código tradicional. Programação letrada permite que desenvolvedores contem uma história com seu código, melhorando o entendimento do projeto, focando com documentação e facilitando a integração de novos desenvolvedores.\nMesmo sendo um conceito respeitado e defendido por pesquisadores renomados, como Donald Knuth, ferramentas de programação letrada como Jupyter notebooks são considerados ineficientes para desenvolvimento de software. Essa percepção limitou a utilização de Jupyter notebooks a scripts simples e material educacional.\nA biblioteca “Nbdev” demonstrou que programação letrada é útil para o desenvolvimento de grandes e sérios projetos, como FastAi.\nEsse minicurso mostrou os benefícios de programação letrada ao mesmo tempo que utiliza das melhores práticas de desenvolvimento. Foi desenvolvido um pacote Python utilizando Jupyter Notebooks, além de publica-lo, realizar deploy de documentação, executar testes e CI/CD. Todo o material está disponível aqui\n\n\nGoing beyond with Jupyter Notebooks: Write your first package using literate programming - PyCon US 2023\n19/04/2023\nLiterate programming is a programming paradigm that incorporates explanations in natural language (such as Spanish) embedded with the traditional code. Literate programming allows developers to tell a story with their codes, improving the understanding of the project, focusing on documentation, and making it easier to onboard developers. Although being a very well-regarded concept discussed by respected researchers like Donald Knuth, literate programming tools like Jupyter notebooks are considered inefficient for serious software development. This perception has limited Jupyter notebooks to simple python scripts and educational materials.\nThe Nbdev library has proven that literate programming is useful in developing big and serious projects, like FastAi. This tutorial will show attendees how to get the benefits of literate programming while also following software development best practices. We’ll get hands-on experience in writing and publishing a Python Package while using Jupyter Notebooks. In addition to publishing the package, we’ll also learn how to deploy the docs, run simple tests and run these tests on CI/CD, making sure that our package will only get published if the tests pass.\nEven though this tutorial uses Jupyter Notebooks and Nbdev the student doesn’t need previous knowledge of these tools. A simple computer with Python and pip installed is all we’ll use. Students should have some minimal Python knowledge and Git experience (Simple commands like push, pull, add and commit). A GitHub account will also be necessary.\n\n\nUtilizando Ipyannotator para anotações de tráfego - Python Nordeste 2022\n28/08/2022\nPalestra sobre o uso do framework Ipyannotator, o qual fui mantenedor, para anotação de tráfego terrestre. A ferramenta foi utilizada como caso de uso do projeto City Count."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "City Count\n\n\n\n\n\n\n\n\n\n\n\nApr 1, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nIpyannotator\n\n\n\n\n\n\n\n\n\n\n\nNov 1, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nJobflo\n\n\n\n\n\n\n\n\n\n\n\nJun 1, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nBoosterhub\n\n\n\n\n\n\n\n\n\n\n\nApr 1, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nSwellCX\n\n\n\n\n\n\n\n\n\n\n\nJul 1, 2020\n\n\n\n\n\n\n\n\n\n\n\n\nDrivably\n\n\n\n\n\n\n\n\n\n\n\nMar 15, 2020\n\n\n\n\n\n\n\n\n\n\n\n\nRetratos da atenção básica\n\n\n\n\n\n\n\n\n\n\n\nJan 1, 2019\n\n\n\n\n\n\n\n\n\n\n\n\nRetsus\n\n\n\n\n\nRetsus it’s a national academic management system used in most states of Brazil\n\n\n\n\n\nMar 1, 2017\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/jobflo/index.html",
+    "href": "projects/jobflo/index.html",
+    "title": "Jobflo",
+    "section": "",
+    "text": "Jobflo it’s a software tailored for the solar industry, allowing companies to automatize their workflow and empower the sales team. I entered the project after one year of it’s development and I was responsible for stablish a git flow, quality assurance and test culture that decreased hotfixes in 80%.\n\n\n\nJobflo login page visualization\n\n\nThe small releases and code review practices increased the code shipping speed. During this time big features like a no-code workflow for admins to customize user’s actions in the system, and a geo-spatial feature to track sales team closer to leads were launched, bringing a lot of value to the product."
+  },
+  {
+    "objectID": "projects/retsus/index.html",
+    "href": "projects/retsus/index.html",
+    "title": "Retsus",
+    "section": "",
+    "text": "Retsus it’s a national academic management system used in most states of Brazil. It was developed using PHP, Laravel and JQuery, with the advent of VueJS the tool was slowly integrated in the workflow.\n\nAs a big software used for multiple schools in the country its requirements were complex and it was needed to train multiple people to use the tool. It was my first experience traveling to meet the final user and train them. The understanding of the user and school context, led to a lot of improvements in usability, accessibility and prepared me to be a user-focused developer."
+  },
+  {
+    "objectID": "projects/drivably/index.html",
+    "href": "projects/drivably/index.html",
+    "title": "Drivably",
+    "section": "",
+    "text": "Drivably helps car owners to get an instant price of their vehicle based on the market value. It allows selling schedule and finantial transactions.\nIt was my first project at DevSquad. I was responsible for developing and maintain Drivably’s website: Maintain the financial subscriptions modules, improving the UI, and fixing eventual bugs. The technologies used in this project were Vuejs to the frontend and Laravel (PHP) for the backend.\n\nA lot of API integrations were made during this period. Advanced timezone and conquer markets beyond United Stated were achieved."
+  },
+  {
+    "objectID": "projects/swellcx/index.html",
+    "href": "projects/swellcx/index.html",
+    "title": "SwellCX",
+    "section": "",
+    "text": "SwellCX gather private and public feedback from clients and employees. It allows business to boost their online reputation and improve the client/employee experience.\nI helped to develop a new version of the software using Laravel Livewire package. The SwellCX’s version 3 had a fast pace development in the middle of the COVID-19 pandemic, where a lot of new customers start to use the project (we had triple digits grow).\n\nNew modules were developed, for example, the payment suite, one of the most expected features from v3. A lot of optimization had to be made to make new users experience even better. Our work led to SwellCX raise 8 million dolars."
+  },
+  {
+    "objectID": "awards/secitex-2016/index.html",
+    "href": "awards/secitex-2016/index.html",
+    "title": "Secitex 2016",
+    "section": "",
+    "text": "https://portal.ifrn.edu.br/campus/reitoria/arquivos/secitex-2016/listas-de-trabalhos-premiados/mostra-tecnologica/at_download/file"
+  },
+  {
+    "objectID": "awards/first-hackathon-ufrn/index.html",
+    "href": "awards/first-hackathon-ufrn/index.html",
+    "title": "1º Hackathon da UFRN",
+    "section": "",
+    "text": "https://dados.gov.br/concurso/i-hackathon-ufrn"
+  },
+  {
+    "objectID": "events.html",
+    "href": "events.html",
+    "title": "Events & Community",
+    "section": "",
+    "text": "PHPeste\n\n\n\n\n\n\n\n\n\n\n\nOct 8, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nPython Nordeste 2022\n\n\n\n\n\n\n\n\n\n\n\nAug 26, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nPython Brasil 2021\n\n\n\n\n\n\n\n\n\n\n\nNov 1, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nPython Brasil 2020\n\n\n\n\n\n\n\n\n\n\n\nNov 1, 2020\n\n\n\n\n\n\n\n\n\n\n\n\nPython Brasil 2018\n\n\n\n\n\n\n\n\n\n\n\nNov 1, 2018\n\n\n\n\n\n\n\n\n\n\n\n\nRoadsec\n\n\n\n\n\n\n\n\n\n\n\nJul 1, 2018\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/ipyannotator/index.html",
+    "href": "projects/ipyannotator/index.html",
+    "title": "Ipyannotator",
+    "section": "",
+    "text": "Ipyannotator is an open source annotation framework that runs on top of Jupyter notebooks. It uses ipywidgets powers to bring data scientist closer to the data annotation, and also providing an environment where professional annotators can explore, create and improve annotations.\n\n\n\nImprovement of incorrect bounding boxes label\n\n\nThis was my first project at Palaimon GmbH, I was responsible to refactor the state management of the project, using a pub-sub architecture to decouple the code. A video annotator was also developed during my time in the project, which was later use for internal and external projects. Ipyannotator was also published at JOSS (Journal of Open Source Software)\n\n\n\nCIFAR-10 image classification example\n\n\nThis project used a lot of the Jupyter notebooks ecossystem, tools like numpy, scikit-image, pandas, pillow, nbdev, python packaging, were used."
+  },
+  {
+    "objectID": "projects/boosterhub/index.html",
+    "href": "projects/boosterhub/index.html",
+    "title": "Boosterhub",
+    "section": "",
+    "text": "Developed from scratch the MVP of Boosterhub using PHP, Laravel, and the Livewire package.\nIn a period of three months, we deliver a multi-tenant software with a customizable page builder and a custom e-commerce solution. It was very fun to integrate the e-commerce with the USIO payment suite since their team helped us a lot.\n\nI also was responsible to develop a full calendar solution. It was very challenging to develop the recurring event system of the calendar in a short period of time, but the final solution was a well-tested code that considered timezones, event reminders, and commercial time to send the email/SMS reminders.\nBoosterhub’s webchat was also developed by me. A real-time chat using Twilio WebSocket that allowed users of the same team to communicate with each other and also create groups of users to easily communicate with the whole team."
+  },
+  {
+    "objectID": "projects/retratos-atencao-basica/index.html",
+    "href": "projects/retratos-atencao-basica/index.html",
+    "title": "Retratos da atenção básica",
+    "section": "",
+    "text": "Retratos da atenção básica it’s a web data app that allows researchers and general public to cross information about brazilian primary care system. It was developed using PostgresSQL, VueJS, Laravel for backend/frontend. Additional data analysis were made using Python and Pandas.\n\nThis was a challenging project because of the amount of data and the need to run complex queries against it. Advanced PostgresSQL features such as materialized views were used to improve aggregations."
+  },
+  {
+    "objectID": "projects/citycount/index.html",
+    "href": "projects/citycount/index.html",
+    "title": "City Count",
+    "section": "",
+    "text": "Citycount project demonstrated AI-based traffic counting usage in a privacy-aware manner through real-time evaluation directly on a edge device.\nIt was my first project considering data governance and data versioning to improve reproducibility. An internal Intake plugin was developed to handle webdataset format and other ML-related data typing.\n\nSwitching between multiple models was essential, and using a good tool for deployment as well. During this time I was responsible to refactor open source code to easily switch the code, and run experiments using Triton to deploy models and versionate them.\nIt was a fun project that combined post-processing techniques using Ipyannotator, a framework for data annotation. Python and its ecossytem: PyTorch, Python Packaging, Nbdev, Pandas, Numpy, Scikit-Image, Pillow, OpenCV, Scipy, etc"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Bloguito",
+    "section": "",
+    "text": "The Rise of Python in Data Product Development: Exploring Solara\n\n\n\n\n\n\nEnglish\n\n\n\n\n\n\n\n\n\nOct 17, 2023\n\n\nÍtalo Epifânio\n\n\n\n\n\n\n\n\n\n\n\n\nRevisitando a Python Nordeste 2023\n\n\n\n\n\n\nPortuguese\n\n\n\n\n\n\n\n\n\nSep 26, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nPyCon US 2023\n\n\n\n\n\n\nEnglish\n\n\n\n\n\n\n\n\n\nJul 11, 2023\n\n\nÍtalo Epifânio\n\n\n\n\n\n\n\n\n\n\n\n\nEnhancing Python Project Productivity: The Advantages of Mamba for Environment Management\n\n\n\n\n\n\nEnglish\n\n\n\n\n\n\n\n\n\nJul 11, 2023\n\n\nÍtalo Epifânio\n\n\n\n\n\n\n\n\n\n\n\n\nPyCon US 2023\n\n\n\n\n\n\nPortuguese\n\n\n\n\n\n\n\n\n\nMay 7, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n2022 Recap\n\n\n\n\n\n\nPortuguese\n\n\n\n\n\n\n\n\n\nJan 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n2022 Recap\n\n\n\n\n\n\nEnglish\n\n\n\n\n\n\n\n\n\nJan 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nProgramação letrada com Jupyter Notebook e Nbdev\n\n\n\n\n\n\nPortuguese\n\n\n\n\n\n\n\n\n\nAug 16, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nLiterate programming with Jupyter notebooks + nbdev + Quarto\n\n\n\n\n\n\nEnglish\n\n\n\n\n\n\n\n\n\nAug 16, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nObjeto hashable em Python\n\n\n\n\n\n\nPortuguese\n\n\n\n\n\n\n\n\n\nJul 24, 2022\n\n\nÍtalo Epifânio\n\n\n\n\n\n\n\n\n\n\n\n\nMeu ano de 2021\n\n\n\n\n\n\nPortuguese\n\n\n\n\n\n\n\n\n\nJan 3, 2022\n\n\nÍtalo Epifânio\n\n\n\n\n\n\n\n\n\n\n\n\nLazy horizontal scroll\n\n\n\n\n\n\nEnglish\n\n\n\n\n\n\n\n\n\nOct 23, 2021\n\n\nÍtalo Epifânio\n\n\n\n\n\n\n\n\n\n\n\n\nCarregamento lento com scroll horizontal\n\n\n\n\n\n\nPortuguese\n\n\n\n\n\n\n\n\n\nOct 23, 2021\n\n\nÍtalo Epifânio\n\n\n\n\n\n\n\n\n\n\n\n\nTALL - Uma nova stack para PHP\n\n\n\n\n\n\nPortuguese\n\n\n\n\n\n\n\n\n\nJun 19, 2020\n\n\nÍtalo Epifânio\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Hello! I’m Ítalo Epifânio, a seasoned R&D Python Developer at Palaimon GmbH. Specializing in Python, AI/ML, and data-driven technologies, I bring over a decade of tech education and a strong foundation in computer science."
+  },
+  {
+    "objectID": "about.html#introduction",
+    "href": "about.html#introduction",
+    "title": "About",
+    "section": "",
+    "text": "Hello! I’m Ítalo Epifânio, a seasoned R&D Python Developer at Palaimon GmbH. Specializing in Python, AI/ML, and data-driven technologies, I bring over a decade of tech education and a strong foundation in computer science."
+  },
+  {
+    "objectID": "about.html#professional-journey",
+    "href": "about.html#professional-journey",
+    "title": "About",
+    "section": "Professional Journey",
+    "text": "Professional Journey\n\nMachine Learning Engineer - Shape Digital Solutions, Rio de Janeiro/Singapore (February 2024 - current)\nR&D Developer - Palaimon GmbH, Berlin, Germany (November 2021 - February 2024)\n\nCreated solutions for data-centric AI and computer vision using Python, Pandas, PyTorch, OpenCV, scikit-image, and the Jupyter Notebook ecosystem\nOrchestrated architecture design, CI/CD, and testing for ‘City Count’, a web application for urban traffic counting\nInitiated the company’s blog, disseminating insights on Python, software engineering, and data-centric AI\nContributed to the deployment of Large Language Models for text generation and stable diffusion\n\nSenior Full Stack Developer - DevSquad, Salt Lake City, United States (March 2020 to October 2021)\n\nConsultant role in developing, maintaining, and refactoring SaaS products using PHP, Laravel, AWS, MySQL, Postgres, Redis, JavaScript, VueJS, and Livewire.\nLed an international team, reducing the bugfix rate by 80% between releases.\nDesigned and developed a workflow system allowing users to program with no-code conditional triggers and actions.\nEnhanced system scalability and performance using caching, queues, database indexing, and load balancers.\nBuilt a GIS software connecting sellers and potential clients based on geolocation.\nDeveloped a new version of the software during the COVID-19 pandemic, contributing to the company’s significant growth and an $8 million fundraising\n\nResearcher and Web Developer - Laboratory of Technological Innovation and Health (LAIS), Brazil (April 2017 to March 2020)\n\nResearched healthcare solutions for the Brazilian Ministry of Healthcare using PHP, Laravel, Postgres, Redis, jQuery, JavaScript, VueJS, Python, Pandas, and R.\nHelped develop a national educational management system for healthcare students and teachers, gaining experience with large, scalable applications.\nDeveloped a data application for Brazilian primary care, facilitating data visualization and analysis for researchers, marking your first experience with large data"
+  },
+  {
+    "objectID": "about.html#academic-background",
+    "href": "about.html#academic-background",
+    "title": "About",
+    "section": "Academic Background",
+    "text": "Academic Background\n\nBachelor’s degree in Computer Science (2021-2023) - Federal University of Rio Grande do Norte (UFRN)\n\nExposure to compilers, programming language design, graphs, AI and ML, distributed systems, concurrent systems and more\n\nBachelor in Information Technology (2017-2021) - Federal University of Rio Grande do Norte (UFRN)\n\nExposure to data structures and algorithm complexity, databases, networking, computer architecture and more\n\nTechnician in Informatics (2013-2016) - Federal Institute of Rio Grande do Norte (IFRN)\n\nEarly exposure to programming, combining high school education with technical training."
+  },
+  {
+    "objectID": "about.html#contributions-interests",
+    "href": "about.html#contributions-interests",
+    "title": "About",
+    "section": "Contributions & Interests",
+    "text": "Contributions & Interests\n\nCommunity Engagement: Active in the Python community through organizing events, speaking engagements, and open-source contributions.\nPublic Speaking: Delivered talks on Python, AI, and tech trends at various conferences and meetups.\nBlogging: Sharing insights and experiences on My personal blog, Palaimon’s blog, and Grupy-RN blog."
+  },
+  {
+    "objectID": "about.html#skills",
+    "href": "about.html#skills",
+    "title": "About",
+    "section": "Skills",
+    "text": "Skills\n\nHard Skills: Web Development, Artificial Intelligence (focus on computer vision and MOT), extensive knowledge of multiple programming languages and databases.\nSoft Skills: Leadership in community building, effective public speaking, and cross-functional communication."
+  },
+  {
+    "objectID": "events/roadsec/index.html",
+    "href": "events/roadsec/index.html",
+    "title": "Roadsec",
+    "section": "",
+    "text": "https://www.imd.ufrn.br/portal/noticias/4143/imd-recebe-o-roadsec-maior-evento-hacker-da-am%C3%A9rica-latina"
+  },
+  {
+    "objectID": "posts/you-may-not-need-js/index.html",
+    "href": "posts/you-may-not-need-js/index.html",
+    "title": "The Rise of Python in Data Product Development: Exploring Solara",
+    "section": "",
+    "text": "The emerging trend of tool-building for data scientists is manifestly by the immense traction PyScript gained within the tech community upon its initiation. This momentum shows a collective desire to simplify the journey of creating data products. Data scientists, that already posses a wide range of knowledge, can accelerate the development of data applications without diving into a new ecosystem like Javascript.\nAs advocates of Python for data product development, we’re always observing the the evolution of its ecossystem. At Palaimon GmbH, our expertise with ipywidgets (a lib with interactive HTML widgets for Jupyter Notebooks) has led to innovations like Ipyannotator, an open source framework dedicated to data annotation, but using ipywidgets has some challenges and as the applications grows in complexity, they became increasingly difficult t o manage.\nSolara, an open-source framework, draws inspiration from the JavaScript ecosystem to create reusable components using a strategy that has stood the test of time. Our experiments with Solara have demonstrated its capability to facilitate the crafting of larger and more intricate data applications\n\n\n\n\n\n\nPython + Data + Web Apps\n\n\n\nIf you’ve ever felt limited by a lack of JavaScript experience or wished for a more straightforward way to build data products, Python might be your answer. With tools available in Python, building data products can be more aligned with what you already know."
+  },
+  {
+    "objectID": "posts/you-may-not-need-js/index.html#your-data-your-language-your-products",
+    "href": "posts/you-may-not-need-js/index.html#your-data-your-language-your-products",
+    "title": "The Rise of Python in Data Product Development: Exploring Solara",
+    "section": "",
+    "text": "The emerging trend of tool-building for data scientists is manifestly by the immense traction PyScript gained within the tech community upon its initiation. This momentum shows a collective desire to simplify the journey of creating data products. Data scientists, that already posses a wide range of knowledge, can accelerate the development of data applications without diving into a new ecosystem like Javascript.\nAs advocates of Python for data product development, we’re always observing the the evolution of its ecossystem. At Palaimon GmbH, our expertise with ipywidgets (a lib with interactive HTML widgets for Jupyter Notebooks) has led to innovations like Ipyannotator, an open source framework dedicated to data annotation, but using ipywidgets has some challenges and as the applications grows in complexity, they became increasingly difficult t o manage.\nSolara, an open-source framework, draws inspiration from the JavaScript ecosystem to create reusable components using a strategy that has stood the test of time. Our experiments with Solara have demonstrated its capability to facilitate the crafting of larger and more intricate data applications\n\n\n\n\n\n\nPython + Data + Web Apps\n\n\n\nIf you’ve ever felt limited by a lack of JavaScript experience or wished for a more straightforward way to build data products, Python might be your answer. With tools available in Python, building data products can be more aligned with what you already know."
+  },
+  {
+    "objectID": "posts/you-may-not-need-js/index.html#solara",
+    "href": "posts/you-may-not-need-js/index.html#solara",
+    "title": "The Rise of Python in Data Product Development: Exploring Solara",
+    "section": "Solara",
+    "text": "Solara\nSolara enables the crafting of expansive data applications by incorporating concepts from React. Its declarative code style makes the codebase more concise, reduces errors, and simplifies comprehension. Solara’s design facilitates easy code reuse through componentization, feature that was ambiguous when developing with ipywidgets.\nWhile ipywidgets are commonly paired with the voilà library to convert Jupyter notebooks into web applications for non-technical users, Solara boasts its own web server. This allows for the sharing of a more tailored web application compared to voilà.\nIn my exploration of Solara for video and image annotation, I discovered that its built-in plotly component lacked the capabilities to construct an annotator. However, I successfully developed a custom plotly component and was able to contribute with the new feature. I’m immensely satisfied with using Solara for such tool development and the ease of reusing its components.\nBelow is an example of the annotator feature integrated into the library:"
+  },
+  {
+    "objectID": "posts/you-may-not-need-js/index.html#navigating-the-future-with-python",
+    "href": "posts/you-may-not-need-js/index.html#navigating-the-future-with-python",
+    "title": "The Rise of Python in Data Product Development: Exploring Solara",
+    "section": "Navigating the Future with Python",
+    "text": "Navigating the Future with Python\nIn the ever-evolving landscape of data science and application development, tools like Solara are paving the way for more efficient and user-friendly solutions. By bridging the gap between Python and web applications, it offers a promising avenue for data scientists to leverage their expertise without the need to venture into unfamiliar territories. At Palaimon GmbH, we remain committed to harnessing the potential of such innovations, ensuring that the data science community has the best tools at their disposal."
+  },
+  {
+    "objectID": "posts/objeto-hashable-python/index.html",
+    "href": "posts/objeto-hashable-python/index.html",
+    "title": "Objeto hashable em Python",
+    "section": "",
+    "text": "Hash de objetos é uma representação númerica inteira que é obtida utilizando o dunder method __hash__. Compreender esse conceito ajuda a entender como as estruturas de dados Python funcionam, uma vez que o hash dos objetos são utilizados internamente.\nProgramadores Python costumam se deparar com o conceito de hash de objetos quando tentam armazenar um objeto sem hash em uma estrutura de dados da linguagem. Por exemplo:\nfrom dataclasses import dataclass\n\n@dataclass\nclass Pessoa:\n    nome: str\n    cpf: str\n\np = Pessoa(nome=\"Ítalo Epifânio\", cpf=\"1010101010\")\npessoas = set()\npessoas.add(p)\nO código acima define uma classe pessoa e um objeto p do tipo pessoa. Ao tentar adicionar uma pessoa ao conjunto pessoas o seguinte erro é lançado:\nTraceback (most recent call last):\n  File \"&lt;stdin&gt;\", line 1, in &lt;module&gt;\nTypeError: unhashable type: 'Pessoa'\nIsso acontece porque a estrutura de dados “conjunto” do Python utiliza o hash em suas tabelas internas para encontrar o valor do objeto rapidamente. Como nosso objeto não tem hash, o erro acima é lançado.\nPara adicionar um hash a um objeto implementa-se as funções __hash__ e __eq__ simultaneamente (caso esteja utilizando Python 2 a função __ne__ também deve ser adicionada). No exemplo a seguir modificamos nossa classe anterior para adquirir essa propriedade.\n@dataclass\nclass Pessoa:\n    nome: str\n    cpf: str\n\n    def __hash__(self):\n        return hash(self.cpf)\n    \n    def __eq__(self, other):\n        mesma_classe = self.__class__ == other.__class__\n        mesmo_cpf = self.cpf == other.cpf\n        \n        return mesma_classe and mesmo_cpf\n\np = Pessoa(nome=\"Ítalo Epifânio\", cpf=\"101.010.101-01\")\npessoas = set()\npessoas.add(p)\nAgora o código consegue ser executado sem o erro anterior. Se executarmos print(pessoas) veremos que o conjunto contém o seguinte valor:\n{Pessoa(nome='Ítalo Epifânio', cpf=1010101010)}\n\nUm objeto é dito hashable se o valor de hash nunca é modificado durante sua fase de vida –  Python Docs \n\nApenas implementar os dunder métodos acima não garante que o objeto é hashable. É preciso garantir o valor de hash desse objeto jamais sejá alterado pois isso pode levar a comportamentos não esperados, por exemplo:\np = Pessoa(nome=\"Ítalo Epifânio\", cpf=\"101.010.101-01\")\npessoas = set()\npessoas.add(p)\nprint(p in pessoas) # retorna True\np.cpf = \"999.999.999-99\"\nprint(p in pessoas) # retorna False\nprint(pessoas) # retorna {Pessoa(nome='Ítalo Epifânio', cpf='999.999.999-99')}\nAo alterar o cpf do objeto p note que o objeto não é mais encontrado na estrutura de dados conjunto (a segunda chamada do print(p in pessoas) retorna falso) e quando lista-se os valores do conjunto pessoas nota-se que há ainda um valor lá.\nEm resumo: você não pode basear hash de objetos em valores mutáveis. Se o atributo de um objeto pode ser modificado durante seu ciclo de vida comportamentos inesperados podem acontecer."
+  },
+  {
+    "objectID": "posts/pycon-2023-pt-br/index.html",
+    "href": "posts/pycon-2023-pt-br/index.html",
+    "title": "PyCon US 2023",
+    "section": "",
+    "text": "PyCon US é a maior conferência anual da linguagem de programação Python. O evento aconteceu de 19 a 27 de abril em Salt Lake City, Utah. Fiquei feliz em contribuir com um tutorial, participar de palestras inspiradoras e me atualizar com os anúncios da Python Software Foundation (PSF).\n\nNotícias, como a funcionalidade de organizações PyPI, e retrospectivas como a conduzida por Guido Van Rossum foram parte fundamental da conferência."
+  },
+  {
+    "objectID": "posts/pycon-2023-pt-br/index.html#pycon-us-2023",
+    "href": "posts/pycon-2023-pt-br/index.html#pycon-us-2023",
+    "title": "PyCon US 2023",
+    "section": "",
+    "text": "PyCon US é a maior conferência anual da linguagem de programação Python. O evento aconteceu de 19 a 27 de abril em Salt Lake City, Utah. Fiquei feliz em contribuir com um tutorial, participar de palestras inspiradoras e me atualizar com os anúncios da Python Software Foundation (PSF).\n\nNotícias, como a funcionalidade de organizações PyPI, e retrospectivas como a conduzida por Guido Van Rossum foram parte fundamental da conferência."
+  },
+  {
+    "objectID": "posts/pycon-2023-pt-br/index.html#palestras",
+    "href": "posts/pycon-2023-pt-br/index.html#palestras",
+    "title": "PyCon US 2023",
+    "section": "Palestras",
+    "text": "Palestras\nPyCon tem duas trilhas de palestras, uma em inglês e outra em espanhol chamada de “Las Charlas”. Todas as trilhas estarão disponíveis no YouTube em um futuro próximo. Você poderá encontrá-las aqui.\nA palestra mais divertida de que participei foi sobre como Criar jogos interativos usando MicroPython e eletrônicos. Ele me apresentou ao novo mundo do MicroPython e como programar jogos usando uma placa chamado micro:bit. A placa micro:bit foi projetada para crianças, não possui pinos ou conectores que possam machuca-las e já vem com várias funcionalidades pré-programados. Confira o vídeo “Chase the dot” de 30 segundos (som ligado) e veja como é divertido programar esses pequenos jogos."
+  },
+  {
+    "objectID": "posts/pycon-2023-pt-br/index.html#tutoriais",
+    "href": "posts/pycon-2023-pt-br/index.html#tutoriais",
+    "title": "PyCon US 2023",
+    "section": "Tutoriais",
+    "text": "Tutoriais\nFoi gratificante contribuir com o evento ministrando um tutorial sobre tópicos avançados em Jupyter Notebooks. O tutorial Indo além com Jupyter Notebooks: Escreva seu primeiro pacote usando programação letrada foi bem atendido e apresentou o uso de nbdev para escrever pacotes Python usando notebooks Jupyter. O tutorial também apresentou tópicos avançados como teste, ferramentas de qualidade de código e como criar interfaces para notebooks Jupyter. Todas as ferramentas apresentadas são usadas no fluxo de trabalho da Palaimon para construir e documentar seus produtos. A apresentação está disponível aqui."
+  },
+  {
+    "objectID": "posts/pycon-2023-pt-br/index.html#anúncios",
+    "href": "posts/pycon-2023-pt-br/index.html#anúncios",
+    "title": "PyCon US 2023",
+    "section": "Anúncios",
+    "text": "Anúncios\nO maior anúncio foi a introdução de contas de organização para o Python Packaging Index (PyPI), que foi um dos recursos mais pedidos para a plataforma. O PyPI agora será mais fácil de usar com grandes equipes que precisam gerenciar sub-equipes e vários pacotes. Este recurso será gratuito para projetos da comunidade e estará disponível por uma pequena taxa para projetos corporativos.\nEssa funcionalidade é crucial para a sustentabilidade financeira do PyPI, pois o número de downloads tem crescido (57% no último período) e sua infraestrutura é atualmente subsidiada pela AWS. A Python Software Foundation (PSF) tem trabalhado na sustentabilidade financeira da organização. Eles anunciaram que a PyCon US agora responde por 75% de sua receita anual (anteriormente era em torno de 90%) e relatou uma parceria piloto com um programa educacional que pode servir como um fonte adicional de receita para a organização."
+  },
+  {
+    "objectID": "posts/pycon-2023-pt-br/index.html#palestras-1",
+    "href": "posts/pycon-2023-pt-br/index.html#palestras-1",
+    "title": "PyCon US 2023",
+    "section": "Palestras",
+    "text": "Palestras\nA palestra “Python: The People’s Programming Language”, de Carol Willing, realmente se destacou para mim. Carol mergulhou nos conceitos de computação distribuída e redes para discutir redes comunitárias resilientes. Foi uma conversa intimista que tocou em desafios pessoais e realizações comunitárias.\n\nGuido Van Rossum, o criador do Python, inicialmente nos pregou uma peça com a conversa “Feed CPython to ChatGPT: can we use AI to make Python faster?”. Mais tarde ele discutiu eventos anteriores da PyCon nos EUA, histórias compartilhadas e informações fornecidas sobre o passado e o futuro do Python."
+  },
+  {
+    "objectID": "posts/pycon-2023-pt-br/index.html#conclusão",
+    "href": "posts/pycon-2023-pt-br/index.html#conclusão",
+    "title": "PyCon US 2023",
+    "section": "Conclusão",
+    "text": "Conclusão\nA PyCon é uma conferência diversificada e inclusiva que abraça a comunidade. Os tutoriais, palestras e palestras são incríveis, mas a melhor parte do evento é se conectar com as pessoas, compartilhando conhecimento e discutindo tópicos pelos quais você é apaixonado. O maior desafio do conferência é aproveitar ao máximo seu tempo lá."
+  },
+  {
+    "objectID": "posts/recapitulando-2022/index.html",
+    "href": "posts/recapitulando-2022/index.html",
+    "title": "2022 Recap",
+    "section": "",
+    "text": "2022 foi um ano longo. O mercado de tecnologia começou a esfriar e até as grandes empresas começaram a demitir em massa, alguns amigos foram atingidos pelas demissões, mas ainda bem que todos já encontraram um novo lugar para trabalhar. A política brasileira batalhou por sua frágil democracia (e ainda bem que ganhou, mesmo que por pouco). Eu também aprendi um monte de coisas sobre a área de inteligência artificial (IA).\nEm 2021 eu estudei tópicos de IA como anotações de dados e taggeamento. Em 2022 eu ajudei a customizar e estender produtos de IA com foco em visão computacional e detecção de objetos. Esse tipo de projeto requer um esforço grande no pré e pós processamento dos dados, além de passos adicionais, como o versionamento de dados, para garantir a reproducibilidade dos experimentos."
+  },
+  {
+    "objectID": "posts/recapitulando-2022/index.html#eventos",
+    "href": "posts/recapitulando-2022/index.html#eventos",
+    "title": "2022 Recap",
+    "section": "Eventos",
+    "text": "Eventos\nEngajei ainda mais com a comunidade de tecnologia, organizando eventos e palestrando.\nPalestrei: - Na Python Nordeste 2022 (maior evento Python do Nordeste) sobre meu trabalho como desenvolvedor open source da biblioteca Ipyannotator e como ela pode ser utilizada para anotações de tráfego terrestre, utilizando o projeto CityCount como exemplo - V PHPRN meetup, retornando os eventos presenciais. Eu falei sobre minha experiência com a TALL stack.\nOrganizei: - V PHPRN meetup - IX Meetup GrupyRN - Python Day 2022 - PHPeste 2022\nEsse foi meu primeiro ano organizando eventos e gerenciando comunidades de tecnologias. Foi mais trabalhoso do que pensei inicialmente: falar com a comunidade, fazer artes, atualizar sites e mídias sociais, agendar espaços, ir atrás de patrocinadores, pedir comida e gerar certificados. Eu aprendi bastante sobre acessibilidade, sempre tem espaço pra melhorar, mas eu acho que estavamos na direção certa na organização do Python Day, onde garantimos comida para todos (incluindo veganos, pessoas alérgicas a gluten, leite e diabéticos), excluimos os aplausos do evento para incluir pessoas sensiveis a sons, e tivemos uma escuta ativa e esforço para criar um espaço que inclua todos os gêneros, raças e sexualidade."
+  },
+  {
+    "objectID": "posts/recapitulando-2022/index.html#explorações",
+    "href": "posts/recapitulando-2022/index.html#explorações",
+    "title": "2022 Recap",
+    "section": "Explorações",
+    "text": "Explorações\n\nAprendi sobre computação gráfica desenvolvendo um simples raytracer em C++ que lê um arquivo .xml e retorna uma imagem .ppm com uma cena 3D. Foi um dos projetos mais desafiadores que já fiz principalmente porque tenho aphantasia, não conseguir projetar imagens mentais atrapalhou na hora de debugar as projeções de câmera e abstrair calculos dos ângulos.\nEstudei sobre métricas de qualidade de software com foco em orientação objeto. Utilizei a versão Java da biblioteca Tinylog para analisar métricas como complexidade ciclomática, fan-out e entre outras\nPubliquei 4 postagens no blog Palaimon\nPubliquei um artigo sobre o Ipyannotator no Journal of Open Software (JOSS)\nFui atribuido a mais responsabilidades como engenheiro de dados. Desenvolvi um plugin intake para judar a equipe com o versionamento de dados e experimentos.\nAprendi os usos e dores da biblioteca OpenCV trabalhando no projeto CityCount Esse projeto foi um bom caso de teste tanto pra solução de versionamento de dados que utiliza o intake, quanto para a biblioteca Ipyannotator\nTestei, refatores e estendi soluções IA para Detecção de multiples objetos (MOT). A maioria das soluções IA não testa seu código, dificultando sua refatoração e estenção, para o nosso caso de uso foi necessário escrever vários testes antes de modificar o código, o que melhorou não só a qualidade do software quanto o entendimento do código"
+  },
+  {
+    "objectID": "posts/mamba-for-env-management/index.html",
+    "href": "posts/mamba-for-env-management/index.html",
+    "title": "Enhancing Python Project Productivity: The Advantages of Mamba for Environment Management",
+    "section": "",
+    "text": "The multitude of Python environments management choices can leave even senior Python developers unsure of the best tool usage. This article describes how Palaimon reduced costs while increase productivity by choosing to use mamba/micromamba for environment management.\nTools like pip, conda, venv, poetry, and others, have served us well over time. But like most things in the dynamic world of programming, we continuously evolve to meet new challenges and improve existing systems.\n\n\n\nImage create with help from stable diffusion model Deliberate V2\n\n\nPalaimon develops complex data projects which requires the usage of multiple dependencies. pip and virtualenv are the “go to” way to manage environment and handle dependencies in Python but Conda packages are a better solution for Machine Learning projects. Conda includes cross-language dependencies and isolated environment setup with more stable packages and GPU support (which is key for us).\nConda’s impressive capability comes with performance issues which leads to workarounds like combining conda with other tools to optimize the setup. In the past we tried to combine Conda and poetry but these kind of workarounds can lead to its own complexities and are not ideal for all scenarios.\nThat’s where mamba comes into play. If you’re not familiar, mamba is a reimplementation of the conda package manager, written in C++. This transition to a compiled language means that mamba provides a significant performance boost, particularly when resolving dependencies, which can take a lot of time in larger projects.\n\nMamba offers all the advantages of conda with significantly speed improvement. Faster environment solving means less waiting and more time for coding\n\nMamba allowed our team to config a better, faster and cheaper CI (Continuos Integration), improving the team productivity. Its compatibility with conda environment and packages made the transition from conda to mamba very easy since all commands the team used are kept the same.\nAt Palaimon GmbH, we understand the importance of effective Python environment management, and we’ve adopted micromamba, a tiny version of mamba. This tooling addresses many of the challenges we’re faced with when managing complex Python environments while reducing our docker images costs, making the CI maintenance cheaper.\nManaging Python environments is a vital aspect of Python development, and choosing the right tool can significantly impact your team productivity, the quality of your work and CI costs. At Palaimon GmbH we are excited about the possibilities mamba/micromamba offers and we highly recommend giving it a try.\n\n Text created with the help of AI"
+  },
+  {
+    "objectID": "posts/literate-programming/index.html",
+    "href": "posts/literate-programming/index.html",
+    "title": "Literate programming with Jupyter notebooks + nbdev + Quarto",
+    "section": "",
+    "text": "The Jupyter notebook development environment is very popular in the scientific Python community. With this tool you can write markdown and code in the same file, which can increase the readability of the program. This paradigm is known as literate programming.\nAn example of a Jupyter notebook including a section of markdown and Python code is shown in the following.\nLiterate programming is a very well regarded concept, formally discussed by respected researchers like Donald Knuth. At the same time, Jupyter notebooks are considered inefficient for serious software development. This controversy led to the famous “I don’t like notebooks” talk, responded by the “I like Jupyter notebooks” talk that generated quite some drama within the community.\nJupyter notebooks have been limited to explore data, small scripts, and educational materials. The recent introduction of nbdev, a python library, expanded the capabilities of notebooks. Nbdev allows the development and distribution of python packages using the literate programming style, as well as test, document, and develop technical files.\nNbdev has proven to be uselful in developing big and serious projects, like FastAi. Relying on nbdev and Jupyter notebook allows software development with quality and the benefits of the literate programming style."
+  },
+  {
+    "objectID": "posts/literate-programming/index.html#experience",
+    "href": "posts/literate-programming/index.html#experience",
+    "title": "Literate programming with Jupyter notebooks + nbdev + Quarto",
+    "section": "Experience",
+    "text": "Experience\nMy first experience with nbdev was weird. Working with Jupyter notebooks for software development didn’t feel natural, as expected, afterall it’s a new paradigm.\nThe software tool that I’m currently working on, Ipyannotator, is an open source framework for annotations with a Graphical User Interface (GUI) that works on top of Jupyter notebook. Ipyannotator development was possible due to the nbdev allowing us to test the software on notebooks and export the code as a Python library.\n\nAfter 10 months of developing software with Jupyter notebook I feel that this has increased my productivity.\n\nThis software paradigm allowed me to keep my documentation up to date since the documentation is written right above my Python code block. This literate programming paradigm also reduces the mental lapse of going back to old code, making it easier to understand previous design decisions, since they are already documented."
+  },
+  {
+    "objectID": "posts/literate-programming/index.html#quarto",
+    "href": "posts/literate-programming/index.html#quarto",
+    "title": "Literate programming with Jupyter notebooks + nbdev + Quarto",
+    "section": "Quarto",
+    "text": "Quarto\nOn July 28th, nbdev released its second version and incorporated another open source tool into its arsenal, Quarto. Quarto allows the creation of technical content using Python, R or Julia, using files such as Jupyter notebooks, markdown, R Notebooks and allowing to export these files as articles, websites, blogs, HTML, PDFs, EPub, etc.\n\nQuarto is a complete solution to easily write any technical material with the tools you already know.\n\nThis tool is so awesome that I’m planning to migrate my personal blog from Jekyll to Quarto. It’s clean in design, usability, and ability to execute code embedded by text blocks, which fits perfectly any technical writing requirements.\nNbdev noticed how powerful Quarto can be. This addition helps with website development and documentation rendering. The first version of nbdev already contained some of these features, however, they were rudimentary and required several workarounds. In the second version nbdev added Quarto to its core."
+  },
+  {
+    "objectID": "posts/literate-programming/index.html#conclusion",
+    "href": "posts/literate-programming/index.html#conclusion",
+    "title": "Literate programming with Jupyter notebooks + nbdev + Quarto",
+    "section": "Conclusion",
+    "text": "Conclusion\nDevelopment with nbdev and Quarto can increase the productivity of many teams, helping to document and tell the story of your software. These tools also expand the possibilities of software development, as was the case with the already exemplified Ipyannotator.\nLike any tool, it also has its tradeoffs. One of them is the lack of auto-complete in Jupyter notebooks, something that can be avoided by using the visual code extension. Another problem is that Jupyter notebook writes json files, a format that makes git conflict resolution difficult due to extra metadata alongside the code. Making conflict resolution difficult minimizes the chances of big teams working on the same software.\nFortunately, the addition of Quarto shows that nbdev already plans to use other files besides Jupyter notebooks in its development core. This enables large teams to develop software with literate programming, decreasing the main tradeoff.\nIf you are interested in trying nbdev you can check the following reference: nbdev+Quarto: A new secret weapon for productivity. If you’re curious about Jupyter notebooks code for software development just check Ipyannotator code."
+  },
+  {
+    "objectID": "posts/horizontal-lazy-loading/index.html",
+    "href": "posts/horizontal-lazy-loading/index.html",
+    "title": "Lazy horizontal scroll",
+    "section": "",
+    "text": "Recently I came across with the following scenario: a management software of workflows that allow the user to dynamic create its kanbans (like the one in the image below). One of the users set its kanban to have 38 columns.\nThe software was design in a way that every kanban column made a request to the backend, in this scenario 38 new requests were made every time a user access the kanban page. This not only overload the server but also the database.\nFirst we needed to decrease the number of requests, limiting the requests to the columns that were visible to the user. After that we had to make sure that if the user scrolls to the end of the page at once, the columns would not request the data unless they were visible for a certain amount of time."
+  },
+  {
+    "objectID": "posts/horizontal-lazy-loading/index.html#limiting-loading-to-visible-cards",
+    "href": "posts/horizontal-lazy-loading/index.html#limiting-loading-to-visible-cards",
+    "title": "Lazy horizontal scroll",
+    "section": "Limiting loading to visible cards",
+    "text": "Limiting loading to visible cards\nJavascript offers an API called IntersectionObserver that allow us to watch HTML elements and check its visibility on screen. The code below shows its most basic operation.\nconst onIntersection = (elements) =&gt; {\n    elements.forEach(element =&gt; {\n      if (element.isIntersecting) {\n          console.log(element, 'is visible');\n      }\n  });\n};\n\nconst observer = new IntersectionObserver(onIntersection);\n\nobserver.observe(document.querySelector('.my-elements'));\nThe function onIntersection is responsable for the logic that will be applied to the visible elements, it takes a list of elements and checks that if they’re visible (element.isIntersecting) then something will be done, in which case a console message is displayed.\nThe IntersectionObserver API call is made and set to the observer variable. The observer object will then be able to observe elements in the HTML and execute logic only when they are visible on the user’s screen. In my case, for the giant kanban, this was enough to limit the 38 requests as the page loaded to just 5, but if the user scrolled the page to its end at once several requests would be made (the other 33 requests)."
+  },
+  {
+    "objectID": "posts/horizontal-lazy-loading/index.html#load-only-after-a-certain-time-of-the-visible-element-on-the-page",
+    "href": "posts/horizontal-lazy-loading/index.html#load-only-after-a-certain-time-of-the-visible-element-on-the-page",
+    "title": "Lazy horizontal scroll",
+    "section": "Load only after a certain time of the visible element on the page",
+    "text": "Load only after a certain time of the visible element on the page\nThe IntersectionObserver API has a version 2 that allows capturing how long a certain HTML element was visible on the screen and this would easily solve the element loading problem HTML only after a certain amount of time. However, version 2 still doesn’t have its implementations compatible with most browsers.\nIn my specific case I was using a parent component that rendered the 38 child elements and I couldn’t check when those 38 child elements were finished rendering to observe them with the InsertersectionObserver, so control how long each element was visible in the screen got a little more complicated.\nEach of the 38 child elements knew when they were rendering themselves, so you could use the IntersectionObserver internally on each of them. Using the setTimeout function of the javascript you can observe the element after a certain time specified in milliseconds.\nWe have 38 elements, but most are not visible on the screen and become visible when scrolling, with the setTimeout delay this action still takes some time to be executed. During scrolling, when the element visible on the screen has not yet triggered the specified setTimeout and the user has already scrolled to the next element, it is possible to remove the timeout of the previous element from the stack and then load only the next element. The following code shows this strategy.\n&lt;div class=\"border border-black m-1 p-10 min-w-max h-10\"\n       x-data=\"\"\n       x-init=\"() =&gt; {\n           let timeout;\n           let loadColumn = function (elements) {\n               clearTimeout(timeout);\n               \n               timeout = setTimeout(function() {\n                   elements.forEach(element =&gt; {\n                       if (element.isIntersecting) {\n                           // do something\n                           observer.unobserve(element.target);\n                       }\n                   });\n               }, 750);\n           }\n           \n           let observer = new IntersectionObserver(loadColumn);\n           let target = $el;\n           observer.observe(target);\n       }\"&gt;\n  &lt;/div&gt;\nWhen the component is loaded into the page it already starts looking at itself using the loadColumn function. Such function removes the previous timeouts (which were not triggered) from the execution stack and adds a new timeout which after 750 milliseconds does something and removes the observation to not redo the same logic if the element becomes visible again.\nIn my case the logic was the request to the server so I only needed to load the data once and then ignore it if the element was visible again on the page.\n\nDid you find the above code syntax strange? This javascript microframework is called AlpineJS and that’s what I used to develop the complete solution.\n\nA simpler POC, without the request to the server, can be seen below. After being visible on your screen the white squares will turn black indicating the request to the server.\n{% include codepen.html hash=“PoKqGPm” title=“Carregamento lento com scroll horizontal” %}\nIf you are interested in seeing a solution with vanilla javascript this was my reference."
+  }
+]
