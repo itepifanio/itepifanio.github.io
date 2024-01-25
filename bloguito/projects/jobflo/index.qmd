@@ -2,3 +2,16 @@
 title:  "Jobflo"
 date:   2021-06-01
 ---
+
+[Jobflo](https://www.jobflo.co/) it's a software tailored for the solar industry, 
+allowing companies to automatize their workflow and empower the sales team.
+I entered the project after one year of it's development and I was responsible 
+for stablish a git flow, quality assurance and test culture that decreased hotfixes in 80%.
+
+![Jobflo login page visualization](jobflo.png)
+
+The small releases and code review practices increased the code shipping speed.
+During this time big features like a no-code workflow for admins to customize user's 
+actions in the system, and a geo-spatial feature to track sales team closer to leads 
+were launched, bringing a lot of value to the product.
+

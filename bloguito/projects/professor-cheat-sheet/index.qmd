@@ -1,5 +1,0 @@
----
-title:  "Profesor Cheat Sheet"
-pagetitle: "Profesor Cheat Sheet"
-date:   2018-01-01
----

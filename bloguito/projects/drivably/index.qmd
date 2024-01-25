@@ -4,8 +4,14 @@ pagetitle: "Drivably"
 date:   2020-03-15
 ---
 
-Developed and maintain Drivably's website. 
-Updating financial subscriptions modules, improving the UI, and fixing eventual bugs.
+[Drivably](https://drivably.com/sellonthespot/) helps car owners to get an instant price of their 
+vehicle based on the market value. It allows selling schedule and finantial transactions.
+
+It was my first project at DevSquad. I was responsible for developing and maintain Drivably's website:
+Maintain the financial subscriptions modules, improving the UI, and fixing eventual bugs.
 The technologies used in this project were Vuejs to the frontend and Laravel (PHP) for the backend.
 
 ![](drivably.png)
+
+A lot of API integrations were made during this period. Advanced timezone and conquer markets beyond 
+United Stated were achieved.

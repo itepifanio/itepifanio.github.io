@@ -23,4 +23,5 @@ to deploy models and versionate them.
 
 It was a fun project that combined post-processing techniques using 
 [Ipyannotator](https://github.com/palaimon/ipyannotator), a framework for 
-data annotation.
+data annotation. Python and its ecossytem: PyTorch, Python Packaging, Nbdev, 
+Pandas, Numpy, Scikit-Image, Pillow, OpenCV, Scipy, etc

@@ -2,4 +2,17 @@
 title:  "Retsus"
 pagetitle: "Retsus"
 date:   2017-03-01
+description: Retsus it's a national academic management system used in most states of Brazil
 ---
+
+[Retsus](https://retsus.ufrn.br/login) it's a national academic management system used 
+in most states of Brazil. It was developed using PHP, Laravel and JQuery, with the 
+advent of VueJS the tool was slowly integrated in the workflow.
+
+![](retsus.png)
+
+As a big software used for multiple schools in the country its requirements were 
+complex and it was needed to train multiple people to use the tool. It was my first 
+experience traveling to meet the final user and train them. The understanding of the 
+user and school context, led to a lot of improvements in usability, accessibility 
+and prepared me to be a user-focused developer.

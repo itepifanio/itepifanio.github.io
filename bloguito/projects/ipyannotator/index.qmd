@@ -14,6 +14,9 @@ can explore, create and improve annotations.
 This was my first project at Palaimon GmbH, I was responsible to refactor the state management 
 of the project, using a pub-sub architecture to decouple the code. A video annotator was also 
 developed during my time in the project, which was later use for internal and external projects.
-Ipyannotator was also published at [JOSS (Journal of Open Source Software)](https://joss.theoj.org/).
+Ipyannotator was also published at [JOSS (Journal of Open Source Software)](https://joss.theoj.org/)
 
 ![CIFAR-10 image classification example](image_classification.png){width="60%"}
+
+This project used a lot of the Jupyter notebooks ecossystem, tools like numpy, scikit-image, pandas,
+pillow, nbdev, python packaging, were used.
