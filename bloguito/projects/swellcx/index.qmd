@@ -1,7 +1,7 @@
 ---
 title:  "SwellCX"
 pagetitle: "SwellCX"
-date:   2021-05-01
+date:   2020-07-01
 ---
 
 Helped to develop a new version of the software using Laravel Livewire package. 

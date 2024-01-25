@@ -3,3 +3,17 @@ title:  "Ipyannotator"
 pagetitle: "Ipyannotator"
 date:   2021-11-01
 ---
+
+Ipyannotator is an open source annotation framework that runs on top of Jupyter notebooks. 
+It uses [ipywidgets](https://ipywidgets.readthedocs.io/) powers to bring data scientist 
+closer to the data annotation, and also providing an environment where professional annotators 
+can explore, create and improve annotations.
+
+![Improvement of incorrect bounding boxes label](incorrect_label.png){width="60%"}
+
+This was my first project at Palaimon GmbH, I was responsible to refactor the state management 
+of the project, using a pub-sub architecture to decouple the code. A video annotator was also 
+developed during my time in the project, which was later use for internal and external projects.
+Ipyannotator was also published at [JOSS (Journal of Open Source Software)](https://joss.theoj.org/).
+
+![CIFAR-10 image classification example](image_classification.png){width="60%"}
