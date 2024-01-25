@@ -3,3 +3,24 @@ title:  "City Count"
 pagetitle: "City Count"
 date:   2022-04-01
 ---
+
+Citycount project demonstrated AI-based traffic counting usage in a 
+privacy-aware manner through real-time evaluation directly on a edge 
+device.
+
+It was my first project considering data governance and data versioning 
+to improve reproducibility. An internal [Intake plugin](https://github.com/intake/intake) 
+was developed to handle [webdataset format](https://github.com/webdataset/webdataset) and 
+other ML-related data typing.
+
+![](cc_mot_small.gif)
+
+Switching between multiple models was essential, and using a good tool 
+for deployment as well. During this time I was responsible to refactor 
+open source code to easily switch the code, and run experiments using 
+[Triton](https://docs.nvidia.com/deeplearning/triton-inference-server/user-guide/docs/user_guide/architecture.html) 
+to deploy models and versionate them.
+
+It was a fun project that combined post-processing techniques using 
+[Ipyannotator](https://github.com/palaimon/ipyannotator), a framework for 
+data annotation.
