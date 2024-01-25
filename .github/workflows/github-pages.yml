@@ -1,17 +1,25 @@
-name: Build and deploy Jekyll site to GitHub Pages
+name: Build and deploy Quarto site to GitHub Pages
 
 on:
+  workflow_dispatch:
   push:
-    branches:
-      - main
+    branches: main
 
 jobs:
-  github-pages:
+  build-deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      - uses: actions/checkout@v2
-      - uses: helaili/jekyll-action@v2
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Render and Publish
+        uses: quarto-dev/quarto-actions/publish@v2
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          target_branch: 'gh-pages'
-          jekyll_env: production
+          target: gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
