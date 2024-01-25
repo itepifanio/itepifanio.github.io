@@ -1,7 +1,7 @@
 ---
 title: "About"
 about:
-  template: jolla
+  template: solana
   links:
     - icon: github
       text: Github
@@ -13,3 +13,45 @@ about:
       text: LinkedIn
       href: https://www.linkedin.com/in/italoepifanio
 ---
+
+## Introduction
+Hello! I'm Ítalo Epifânio, a seasoned R&D Python Developer at Palaimon GmbH. 
+Specializing in Python, AI/ML, and data-driven technologies, I bring over a decade of tech education and a 
+strong foundation in computer science.
+
+## Professional Journey
+
+- **Machine Learning Engineer** - Shape Digital Solutions, Rio de Janeiro/Singapore (February 2024 - current)
+- **R&D Developer** - Palaimon GmbH, Berlin, Germany (November 2021 - February 2024)
+  - Created solutions for data-centric AI and computer vision using Python, Pandas, PyTorch, OpenCV, scikit-image, and the Jupyter Notebook ecosystem
+  - Orchestrated architecture design, CI/CD, and testing for 'City Count', a web application for urban traffic counting
+  - Initiated the company's blog, disseminating insights on Python, software engineering, and data-centric AI
+  - Contributed to the deployment of Large Language Models for text generation and stable diffusion
+- **Senior Full Stack Developer** - DevSquad, Salt Lake City, United States (March 2020 to October 2021)
+  - Consultant role in developing, maintaining, and refactoring SaaS products using PHP, Laravel, AWS, MySQL, Postgres, Redis, JavaScript, VueJS, and Livewire.
+  - Led an international team, reducing the bugfix rate by 80% between releases.
+  - Designed and developed a workflow system allowing users to program with no-code conditional triggers and actions.
+  - Enhanced system scalability and performance using caching, queues, database indexing, and load balancers.
+  - Built a GIS software connecting sellers and potential clients based on geolocation.
+  - Developed a new version of the software during the COVID-19 pandemic, contributing to the company's significant growth and an $8 million fundraising
+- **Researcher and Web Developer** - Laboratory of Technological Innovation and Health (LAIS), Brazil (April 2017 to March 2020)
+  - Researched healthcare solutions for the Brazilian Ministry of Healthcare using PHP, Laravel, Postgres, Redis, jQuery, JavaScript, VueJS, Python, Pandas, and R.
+  - Helped develop a national educational management system for healthcare students and teachers, gaining experience with large, scalable applications.
+  - Developed a data application for Brazilian primary care, facilitating data visualization and analysis for researchers, marking your first experience with large data
+
+## Academic Background
+- **Bachelor's degree in Computer Science (2021-2023)** - Federal University of Rio Grande do Norte (UFRN)
+  - Exposure to compilers, programming language design, graphs, AI and ML, distributed systems, concurrent systems and more
+- **Bachelor in Information Technology (2017-2021)** - Federal University of Rio Grande do Norte (UFRN)
+  - Exposure to data structures and algorithm complexity, databases, networking, computer architecture and more
+- **Technician in Informatics (2013-2016)** - Federal Institute of Rio Grande do Norte (IFRN)
+  - Early exposure to programming, combining high school education with technical training.
+
+## Contributions & Interests
+- **Community Engagement**: Active in the Python community through organizing events, speaking engagements, and open-source contributions.
+- **Public Speaking**: Delivered talks on Python, AI, and tech trends at various conferences and meetups.
+- **Blogging**: Sharing insights and experiences on [My personal blog](https://itepifanio.github.io), [Palaimon's blog](https://itepifanio.github.io), and [Grupy-RN blog](https://itepifanio.github.io).
+
+## Skills
+- **Hard Skills**: Web Development, Artificial Intelligence (focus on computer vision and MOT), extensive knowledge of multiple programming languages and databases.
+- **Soft Skills**: Leadership in community building, effective public speaking, and cross-functional communication.

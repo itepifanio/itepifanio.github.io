@@ -3,7 +3,7 @@ pagetitle: "Talks"
 title: "Talks"
 ---
 
-## Protegendo seu ambiente jupyter e mais um pouco - [10º Meetup GruPy RN Mossoró](https://blog.grupyrn.org/meetup-10-mossoro/)
+### Protegendo seu ambiente jupyter e mais um pouco - [10º Meetup GruPy RN Mossoró](https://blog.grupyrn.org/meetup-10-mossoro/)
 
 02/12/2023
 
@@ -12,7 +12,7 @@ na ferramenta Jupyter notebook e mais especificamente o seu servidor. Foi demons
 instalação e uso da ferramenta [Jupysec](https://github.com/JosephTLucas/jupysec) para 
 exibir possiveis problemas de segurança no servidor.
 
-## Usando Python e dados para desenvolver dashboards, interfaces e aplicações - [Nivercon](https://nivercon.com/)
+### Usando Python e dados para desenvolver dashboards, interfaces e aplicações - [Nivercon](https://nivercon.com/)
 
 07/10/2023
 
@@ -28,7 +28,7 @@ as bibliotecas ipywidgets com voilà, Dash, Solara e Streamlit. Por fim, Solara 
 o melhor caso de uso dentre as ferramentas testadas, apresentando melhor reuso de código e 
 controle de estado que as demais ferramentas.
 
-## Indo além com Jupyter Notebooks: Desenvolva o seu primeiro pacote python com programação letrada - [Python Nordeste 2023](https://pretalx.com/python-nordeste-2023/talk/ZRHNW8/)
+### Indo além com Jupyter Notebooks: Desenvolva o seu primeiro pacote python com programação letrada - [Python Nordeste 2023](https://pretalx.com/python-nordeste-2023/talk/ZRHNW8/)
 
 24/09/2023
 
@@ -50,7 +50,7 @@ melhores práticas de desenvolvimento. Foi desenvolvido um pacote Python utiliza
 além de publica-lo, realizar deploy de documentação, executar testes e CI/CD. Todo o material está 
 [disponível aqui](https://github.com/itepifanio/indo-alem-com-jupyter-notebooks)
 
-## Going beyond with Jupyter Notebooks: Write your first package using literate programming - [PyCon US 2023](https://us.pycon.org/2023/schedule/presentation/2/)
+### Going beyond with Jupyter Notebooks: Write your first package using literate programming - [PyCon US 2023](https://us.pycon.org/2023/schedule/presentation/2/)
 
 19/04/2023
 
@@ -72,7 +72,7 @@ Even though this tutorial uses Jupyter Notebooks and Nbdev the student doesn't n
 A simple computer with Python and pip installed is all we'll use. Students should have some minimal Python knowledge 
 and Git experience (Simple commands like push, pull, add and commit). A GitHub account will also be necessary.
 
-## Utilizando Ipyannotator para anotações de tráfego - [Python Nordeste 2022](https://2022.pythonnordeste.org/)
+### Utilizando Ipyannotator para anotações de tráfego - [Python Nordeste 2022](https://2022.pythonnordeste.org/)
 
 28/08/2022
 

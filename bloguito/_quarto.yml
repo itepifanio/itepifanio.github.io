@@ -3,13 +3,16 @@ project:
 
 website:
   title: "Bloguito"
+  google-analytics: G-YBQH55JB4K
+  page-navigation: true
+  cookie-consent: true
   navbar:
     left:
+      - about.qmd
       - talks.qmd
       - projects.qmd
-      - events.qmd
+      #- events.qmd
       - awards.qmd
-      - about.qmd
     right:
       - icon: github
         href: https://github.com/itepifanio
@@ -19,8 +22,9 @@ website:
         href: https://www.linkedin.com/in/italoepifanio
 format:
   html:
-    theme: flatly
+    theme: 
+      light: flatly
+      #dark: darkly
     css: styles.css
-
-
-
+    toc: true
+    toc-location: left
