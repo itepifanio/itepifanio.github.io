@@ -3,7 +3,7 @@ project:
 
 website:
   title: "Bloguito"
-  google-analytics: G-YBQH55JB4K
+  google-analytics: "G-YBQH55JB4K"
   page-navigation: true
   cookie-consent: true
   navbar:
