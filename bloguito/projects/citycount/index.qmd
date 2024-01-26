@@ -4,24 +4,21 @@ pagetitle: "City Count"
 date:   2022-04-01
 ---
 
-Citycount project demonstrated AI-based traffic counting usage in a 
-privacy-aware manner through real-time evaluation directly on a edge 
-device.
+The Citycount project showcased an AI-based traffic counting system, emphasizing privacy-awareness 
+and real-time evaluation directly on an edge device.
 
-It was my first project considering data governance and data versioning 
-to improve reproducibility. An internal [Intake plugin](https://github.com/intake/intake) 
-was developed to handle [webdataset format](https://github.com/webdataset/webdataset) and 
-other ML-related data typing.
+This was my inaugural project focusing on data governance and data versioning to enhance reproducibility. 
+An internal [Intake plugin](https://github.com/intake/intake) was developed specifically to manage the 
+[webdataset format](https://github.com/webdataset/webdataset) and other ML-related data types.
 
-![](cc_mot_small.gif)
+![Citycount realtime inference execution](cc_mot_small.gif)
 
-Switching between multiple models was essential, and using a good tool 
-for deployment as well. During this time I was responsible to refactor 
-open source code to easily switch the code, and run experiments using 
-[Triton](https://docs.nvidia.com/deeplearning/triton-inference-server/user-guide/docs/user_guide/architecture.html) 
-to deploy models and versionate them.
+A critical aspect of the project was the ability to switch between multiple models seamlessly, 
+necessitating the use of effective deployment tools. During this phase, I was responsible for 
+refactoring open-source code to facilitate easy model switching. I also conducted experiments 
+using [Triton](https://docs.nvidia.com/deeplearning/triton-inference-server/user-guide/docs/user_guide/architecture.html) 
+for model deployment and versioning.
 
-It was a fun project that combined post-processing techniques using 
-[Ipyannotator](https://github.com/palaimon/ipyannotator), a framework for 
-data annotation. Python and its ecossytem: PyTorch, Python Packaging, Nbdev, 
-Pandas, Numpy, Scikit-Image, Pillow, OpenCV, Scipy, etc
+The project used [Ipyannotator](https://github.com/palaimon/ipyannotator), a framework for data annotation, to apply 
+post-processing techniques and enhance infered data. It leveraged the Python ecosystem extensively, 
+including PyTorch, Python Packaging, Nbdev, Pandas, Numpy, Scikit-Image, Pillow, OpenCV, Scipy, and more.

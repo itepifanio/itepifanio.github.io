@@ -4,12 +4,14 @@ pagetitle: "Retratos da atenção básica"
 date:   2019-01-01
 ---
 
-[Retratos da atenção básica](https://retratos.navi.ifrn.edu.br) it's a web data app that allows 
-researchers and general public to cross information about brazilian primary care system. 
-It was developed using PostgresSQL, VueJS, Laravel for backend/frontend. Additional data analysis
-were made using Python and Pandas.
+[Retratos da atenção básica](https://retratos.navi.ifrn.edu.br) is a web data application 
+that enables researchers and the general public to access and cross-reference information 
+about the Brazilian primary care system. The app was developed using PostgreSQL for 
+database management, VueJS and Laravel for the frontend and backend respectively. 
+Additional data analysis was conducted using Python and Pandas.
 
-![](retratos.png)
+![Retratos da atenção básica landing page](retratos.png)
 
-This was a challenging project because of the amount of data and the need to run complex queries 
-against it. Advanced PostgresSQL features such as materialized views were used to improve aggregations.
+This project presented a significant challenge due to the vast amount of data and the requirement 
+for complex query execution. To enhance performance and facilitate data aggregation, advanced 
+PostgreSQL features, such as materialized views, were extensively utilized.

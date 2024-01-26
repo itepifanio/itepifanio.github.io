@@ -4,19 +4,21 @@ pagetitle: "Ipyannotator"
 date:   2021-11-01
 ---
 
-Ipyannotator is an open source annotation framework that runs on top of Jupyter notebooks. 
-It uses [ipywidgets](https://ipywidgets.readthedocs.io/) powers to bring data scientist 
-closer to the data annotation, and also providing an environment where professional annotators 
-can explore, create and improve annotations.
+Ipyannotator is an open-source annotation framework that operates on top of
+Jupyter notebooks. It harnesses the capabilities of [ipywidgets](https://ipywidgets.readthedocs.io/) 
+to bring data scientists closer to data annotation, while also providing a conducive environment 
+for professional annotators to explore, create, and improve annotations.
 
 ![Improvement of incorrect bounding boxes label](incorrect_label.png){width="60%"}
 
-This was my first project at Palaimon GmbH, I was responsible to refactor the state management 
-of the project, using a pub-sub architecture to decouple the code. A video annotator was also 
-developed during my time in the project, which was later use for internal and external projects.
-Ipyannotator was also published at [JOSS (Journal of Open Source Software)](https://joss.theoj.org/)
+During my time at Palaimon GmbH, I spearheaded the refactoring of the state management 
+in Ipyannotator, adopting a pub-sub architecture to streamline and decouple the codebase. 
+A significant contribution was the development of a video annotator, which later found 
+applications in both internal and external projects. Notably, Ipyannotator was also published 
+in the [JOSS (Journal of Open Source Software)](https://joss.theoj.org/).
 
 ![CIFAR-10 image classification example](image_classification.png){width="60%"}
 
-This project used a lot of the Jupyter notebooks ecossystem, tools like numpy, scikit-image, pandas,
-pillow, nbdev, python packaging, were used.
+The project extensively utilized tools from the Jupyter notebooks ecosystem, including numpy, 
+scikit-image, pandas, pillow, nbdev, and python packaging.
+
