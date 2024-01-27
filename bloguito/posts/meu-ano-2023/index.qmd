@@ -1,0 +1,44 @@
+---
+title:  "Meu ano de 2023"
+date:   2024-01-27 18:03:37
+author: Ítalo Epifânio
+categories: [Portuguese]
+---
+
+Meu ano começou com bastante revisões do tutorial de três horas e meia que preparei pra PyCon US.
+Apesar de trabalhar a alguns anos pra gringa, foi uma experiência bem desafiadora 
+passar 3h30m ininterruptas falando inglês, tirando dúvidas, correndo de sistema operacional para 
+sistema operacional e aprendendo sobre novos bugs in runtime.
+"Going Beyond with Jupyter notebooks: Write your first package using literate programming" lotou 
+duas salas e teve bons feedbacks, principalmente sobre a parte de lint, testes e visualização de 
+jupyter notebooks.
+
+Falando em desafios, acho que consegui concluir o maior que me propus: finalizar o curso de ciências 
+da computação na UFRN. Desde o primeiro semestre do curso eu sou dono de casa, trabalho e estudo, 
+conciliar tudo isso foi a parte mais difícil. Tenho que agradecer as ações afirmativas da universidade 
+que me auxliaram durante metade do curso e permitiram que eu continuasse estudando.
+
+2023 foi um ano de gratidão. A educação e a tecnologia mudaram minha vida.
+
+Nasci em um cidade de 30mil habitantes, Pau dos Ferros, quase Rio Grande do Norte, quase Ceára. 
+Meu sonho era a independência financeira e já na graduação eu a tinha conseguido, mesmo que aos 
+trancos e barrancos. Jamais imaginaria que trabalharia para fora do país, que viajaria pros 
+Estados Unidos para palestrar sobre tecnologia.
+
+Me sinto muito sortudo.
+
+No meu primeiro emprego cada vez que o RH queria falar comigo eu achava que iria ser demitido. Sempre 
+era um aumento. Mais que dobrei meu salário na empresa por conta das minhas entregas e maturidade que 
+adquiri no trabalho, na academia e na vida.
+
+A síndrome do impostor bate forte as vezes.
+
+Por todas essas coisas boas que me aconteceram e todos os ombros que me ajudaram eu sempre tive a 
+sensação de que eu tinha esse dever de retribuir, de levar mais pessoas a educação, a tecnologia, 
+de aproximar academia e tecnologistas. Minha forma de contribuir foi através das comunidades, iniciei 
+ajudando a PHP-RN, já que programava em PHP, organizei meetups, palestrei, organizei até a PHPeste 
+(maior conferência PHP do nordeste). Quando fui trabalhar com Python comecei a ajudar o GruPy-RN, 
+retomamos suas atividades pós-pandemia, organizamos mais, maiores e melhores meetups, agora em 2024 
+estou na organização da Python Nordeste (maior conferência Python do nordeste, segunda maior do BR).
+
+2024 está sendo e vai ser um ano de correria. Outros estudos, comunidades de tecnologia e mais. 
