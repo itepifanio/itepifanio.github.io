@@ -1,9 +1,33 @@
 [
   {
-    "listing": "/awards.html",
+    "listing": "/index.html",
     "items": [
-      "/awards/first-hackathon-ufrn/index.html",
-      "/awards/secitex-2016/index.html"
+      "/posts/meu-ano-2023/index.html",
+      "/posts/you-may-not-need-js/index.html",
+      "/posts/pyne-2023/index.html",
+      "/posts/pycon-2023/index.html",
+      "/posts/mamba-for-env-management/index.html",
+      "/posts/pycon-2023-pt-br/index.html",
+      "/posts/recapitulando-2022/index.html",
+      "/posts/recap-2022/index.html",
+      "/posts/programacao-letrada/index.html",
+      "/posts/literate-programming/index.html",
+      "/posts/objeto-hashable-python/index.html",
+      "/posts/meu-ano-2021/index.html",
+      "/posts/horizontal-lazy-loading/index.html",
+      "/posts/pt-br-horizontal-lazy-loading/index.html",
+      "/posts/tall-uma-nova-stack-para-php/index.html"
+    ]
+  },
+  {
+    "listing": "/events.html",
+    "items": [
+      "/events/phpeste-2022/index.html",
+      "/events/python-nordeste-2022/index.html",
+      "/events/python-brasil-2021/index.html",
+      "/events/python-brasil-2020/index.html",
+      "/events/python-brasil-2018/index.html",
+      "/events/roadsec/index.html"
     ]
   },
   {
@@ -20,33 +44,10 @@
     ]
   },
   {
-    "listing": "/events.html",
+    "listing": "/awards.html",
     "items": [
-      "/events/phpeste-2022/index.html",
-      "/events/python-nordeste-2022/index.html",
-      "/events/python-brasil-2021/index.html",
-      "/events/python-brasil-2020/index.html",
-      "/events/python-brasil-2018/index.html",
-      "/events/roadsec/index.html"
-    ]
-  },
-  {
-    "listing": "/index.html",
-    "items": [
-      "/posts/you-may-not-need-js/index.html",
-      "/posts/pyne-2023/index.html",
-      "/posts/pycon-2023/index.html",
-      "/posts/mamba-for-env-management/index.html",
-      "/posts/pycon-2023-pt-br/index.html",
-      "/posts/recapitulando-2022/index.html",
-      "/posts/recap-2022/index.html",
-      "/posts/programacao-letrada/index.html",
-      "/posts/literate-programming/index.html",
-      "/posts/objeto-hashable-python/index.html",
-      "/posts/meu-ano-2021/index.html",
-      "/posts/horizontal-lazy-loading/index.html",
-      "/posts/pt-br-horizontal-lazy-loading/index.html",
-      "/posts/tall-uma-nova-stack-para-php/index.html"
+      "/awards/first-hackathon-ufrn/index.html",
+      "/awards/secitex-2016/index.html"
     ]
   }
 ]

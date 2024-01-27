@@ -2,146 +2,150 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://itepifanio.github.io/posts/recap-2022/index.html</loc>
-    <lastmod>2024-01-26T00:57:29.159Z</lastmod>
+    <lastmod>2024-01-27T21:33:20.434Z</lastmod>
   </url>
   <url>
     <loc>https://itepifanio.github.io/posts/meu-ano-2021/index.html</loc>
-    <lastmod>2024-01-26T00:57:29.155Z</lastmod>
+    <lastmod>2024-01-27T21:33:20.426Z</lastmod>
   </url>
   <url>
     <loc>https://itepifanio.github.io/posts/programacao-letrada/index.html</loc>
-    <lastmod>2024-01-26T00:57:29.155Z</lastmod>
+    <lastmod>2024-01-27T21:33:20.430Z</lastmod>
   </url>
   <url>
     <loc>https://itepifanio.github.io/posts/pyne-2023/index.html</loc>
-    <lastmod>2024-01-26T00:57:29.159Z</lastmod>
+    <lastmod>2024-01-27T21:33:20.434Z</lastmod>
   </url>
   <url>
     <loc>https://itepifanio.github.io/posts/tall-uma-nova-stack-para-php/index.html</loc>
-    <lastmod>2024-01-26T00:57:29.163Z</lastmod>
-  </url>
-  <url>
-    <loc>https://itepifanio.github.io/posts/pycon-2023/index.html</loc>
-    <lastmod>2024-01-26T00:57:29.159Z</lastmod>
-  </url>
-  <url>
-    <loc>https://itepifanio.github.io/posts/pt-br-horizontal-lazy-loading/index.html</loc>
-    <lastmod>2024-01-26T00:57:29.155Z</lastmod>
-  </url>
-  <url>
-    <loc>https://itepifanio.github.io/awards.html</loc>
-    <lastmod>2024-01-26T00:57:29.151Z</lastmod>
-  </url>
-  <url>
-    <loc>https://itepifanio.github.io/events/python-nordeste-2022/index.html</loc>
-    <lastmod>2024-01-26T00:57:29.151Z</lastmod>
-  </url>
-  <url>
-    <loc>https://itepifanio.github.io/events/python-brasil-2018/index.html</loc>
-    <lastmod>2024-01-26T00:57:29.151Z</lastmod>
-  </url>
-  <url>
-    <loc>https://itepifanio.github.io/events/python-brasil-2021/index.html</loc>
-    <lastmod>2024-01-26T00:57:29.151Z</lastmod>
-  </url>
-  <url>
-    <loc>https://itepifanio.github.io/talks.html</loc>
-    <lastmod>2024-01-26T00:57:29.179Z</lastmod>
-  </url>
-  <url>
-    <loc>https://itepifanio.github.io/projects.html</loc>
-    <lastmod>2024-01-26T00:57:29.163Z</lastmod>
-  </url>
-  <url>
-    <loc>https://itepifanio.github.io/projects/jobflo/index.html</loc>
-    <lastmod>2024-01-26T00:57:29.171Z</lastmod>
-  </url>
-  <url>
-    <loc>https://itepifanio.github.io/projects/retsus/index.html</loc>
-    <lastmod>2024-01-26T00:57:29.175Z</lastmod>
-  </url>
-  <url>
-    <loc>https://itepifanio.github.io/projects/drivably/index.html</loc>
-    <lastmod>2024-01-26T00:57:29.171Z</lastmod>
-  </url>
-  <url>
-    <loc>https://itepifanio.github.io/projects/swellcx/index.html</loc>
-    <lastmod>2024-01-26T00:57:29.179Z</lastmod>
-  </url>
-  <url>
-    <loc>https://itepifanio.github.io/awards/secitex-2016/index.html</loc>
-    <lastmod>2024-01-26T00:57:29.151Z</lastmod>
-  </url>
-  <url>
-    <loc>https://itepifanio.github.io/awards/first-hackathon-ufrn/index.html</loc>
-    <lastmod>2024-01-26T00:57:29.151Z</lastmod>
-  </url>
-  <url>
-    <loc>https://itepifanio.github.io/events.html</loc>
-    <lastmod>2024-01-26T00:57:29.151Z</lastmod>
-  </url>
-  <url>
-    <loc>https://itepifanio.github.io/projects/ipyannotator/index.html</loc>
-    <lastmod>2024-01-26T00:57:29.171Z</lastmod>
-  </url>
-  <url>
-    <loc>https://itepifanio.github.io/projects/boosterhub/index.html</loc>
-    <lastmod>2024-01-26T00:57:29.167Z</lastmod>
-  </url>
-  <url>
-    <loc>https://itepifanio.github.io/projects/retratos-atencao-basica/index.html</loc>
-    <lastmod>2024-01-26T00:57:29.171Z</lastmod>
-  </url>
-  <url>
-    <loc>https://itepifanio.github.io/projects/citycount/index.html</loc>
-    <lastmod>2024-01-26T00:57:29.171Z</lastmod>
-  </url>
-  <url>
-    <loc>https://itepifanio.github.io/index.html</loc>
-    <lastmod>2024-01-26T00:57:29.151Z</lastmod>
-  </url>
-  <url>
-    <loc>https://itepifanio.github.io/about.html</loc>
-    <lastmod>2024-01-26T00:57:29.151Z</lastmod>
-  </url>
-  <url>
-    <loc>https://itepifanio.github.io/events/python-brasil-2020/index.html</loc>
-    <lastmod>2024-01-26T00:57:29.151Z</lastmod>
-  </url>
-  <url>
-    <loc>https://itepifanio.github.io/events/phpeste-2022/index.html</loc>
-    <lastmod>2024-01-26T00:57:29.151Z</lastmod>
-  </url>
-  <url>
-    <loc>https://itepifanio.github.io/events/roadsec/index.html</loc>
-    <lastmod>2024-01-26T00:57:29.151Z</lastmod>
-  </url>
-  <url>
-    <loc>https://itepifanio.github.io/posts/you-may-not-need-js/index.html</loc>
-    <lastmod>2024-01-26T00:57:29.163Z</lastmod>
-  </url>
-  <url>
-    <loc>https://itepifanio.github.io/posts/objeto-hashable-python/index.html</loc>
-    <lastmod>2024-01-26T00:57:29.155Z</lastmod>
+    <lastmod>2024-01-27T21:33:20.434Z</lastmod>
   </url>
   <url>
     <loc>https://itepifanio.github.io/posts/pycon-2023-pt-br/index.html</loc>
-    <lastmod>2024-01-26T00:57:29.155Z</lastmod>
+    <lastmod>2024-01-27T21:33:20.430Z</lastmod>
+  </url>
+  <url>
+    <loc>https://itepifanio.github.io/posts/objeto-hashable-python/index.html</loc>
+    <lastmod>2024-01-27T21:33:20.426Z</lastmod>
+  </url>
+  <url>
+    <loc>https://itepifanio.github.io/posts/you-may-not-need-js/index.html</loc>
+    <lastmod>2024-01-27T21:33:20.434Z</lastmod>
+  </url>
+  <url>
+    <loc>https://itepifanio.github.io/events/roadsec/index.html</loc>
+    <lastmod>2024-01-27T21:33:20.426Z</lastmod>
+  </url>
+  <url>
+    <loc>https://itepifanio.github.io/events/phpeste-2022/index.html</loc>
+    <lastmod>2024-01-27T21:33:20.426Z</lastmod>
+  </url>
+  <url>
+    <loc>https://itepifanio.github.io/events/python-brasil-2020/index.html</loc>
+    <lastmod>2024-01-27T21:33:20.426Z</lastmod>
+  </url>
+  <url>
+    <loc>https://itepifanio.github.io/about.html</loc>
+    <lastmod>2024-01-27T21:33:20.426Z</lastmod>
+  </url>
+  <url>
+    <loc>https://itepifanio.github.io/index.html</loc>
+    <lastmod>2024-01-27T21:33:20.426Z</lastmod>
+  </url>
+  <url>
+    <loc>https://itepifanio.github.io/projects/citycount/index.html</loc>
+    <lastmod>2024-01-27T21:33:20.442Z</lastmod>
+  </url>
+  <url>
+    <loc>https://itepifanio.github.io/projects/retratos-atencao-basica/index.html</loc>
+    <lastmod>2024-01-27T21:33:20.446Z</lastmod>
+  </url>
+  <url>
+    <loc>https://itepifanio.github.io/projects/boosterhub/index.html</loc>
+    <lastmod>2024-01-27T21:33:20.438Z</lastmod>
+  </url>
+  <url>
+    <loc>https://itepifanio.github.io/projects/ipyannotator/index.html</loc>
+    <lastmod>2024-01-27T21:33:20.446Z</lastmod>
+  </url>
+  <url>
+    <loc>https://itepifanio.github.io/events.html</loc>
+    <lastmod>2024-01-27T21:33:20.426Z</lastmod>
+  </url>
+  <url>
+    <loc>https://itepifanio.github.io/awards/first-hackathon-ufrn/index.html</loc>
+    <lastmod>2024-01-27T21:33:20.426Z</lastmod>
+  </url>
+  <url>
+    <loc>https://itepifanio.github.io/awards/secitex-2016/index.html</loc>
+    <lastmod>2024-01-27T21:33:20.426Z</lastmod>
+  </url>
+  <url>
+    <loc>https://itepifanio.github.io/projects/swellcx/index.html</loc>
+    <lastmod>2024-01-27T21:33:20.454Z</lastmod>
+  </url>
+  <url>
+    <loc>https://itepifanio.github.io/projects/drivably/index.html</loc>
+    <lastmod>2024-01-27T21:33:20.446Z</lastmod>
+  </url>
+  <url>
+    <loc>https://itepifanio.github.io/projects/retsus/index.html</loc>
+    <lastmod>2024-01-27T21:33:20.446Z</lastmod>
+  </url>
+  <url>
+    <loc>https://itepifanio.github.io/projects/jobflo/index.html</loc>
+    <lastmod>2024-01-27T21:33:20.446Z</lastmod>
+  </url>
+  <url>
+    <loc>https://itepifanio.github.io/projects.html</loc>
+    <lastmod>2024-01-27T21:33:20.438Z</lastmod>
+  </url>
+  <url>
+    <loc>https://itepifanio.github.io/talks.html</loc>
+    <lastmod>2024-01-27T21:33:20.454Z</lastmod>
+  </url>
+  <url>
+    <loc>https://itepifanio.github.io/events/python-brasil-2021/index.html</loc>
+    <lastmod>2024-01-27T21:33:20.426Z</lastmod>
+  </url>
+  <url>
+    <loc>https://itepifanio.github.io/events/python-brasil-2018/index.html</loc>
+    <lastmod>2024-01-27T21:33:20.426Z</lastmod>
+  </url>
+  <url>
+    <loc>https://itepifanio.github.io/events/python-nordeste-2022/index.html</loc>
+    <lastmod>2024-01-27T21:33:20.426Z</lastmod>
+  </url>
+  <url>
+    <loc>https://itepifanio.github.io/awards.html</loc>
+    <lastmod>2024-01-27T21:33:20.426Z</lastmod>
+  </url>
+  <url>
+    <loc>https://itepifanio.github.io/posts/pt-br-horizontal-lazy-loading/index.html</loc>
+    <lastmod>2024-01-27T21:33:20.430Z</lastmod>
+  </url>
+  <url>
+    <loc>https://itepifanio.github.io/posts/pycon-2023/index.html</loc>
+    <lastmod>2024-01-27T21:33:20.430Z</lastmod>
+  </url>
+  <url>
+    <loc>https://itepifanio.github.io/posts/meu-ano-2023/index.html</loc>
+    <lastmod>2024-01-27T21:33:20.426Z</lastmod>
   </url>
   <url>
     <loc>https://itepifanio.github.io/posts/recapitulando-2022/index.html</loc>
-    <lastmod>2024-01-26T00:57:29.159Z</lastmod>
+    <lastmod>2024-01-27T21:33:20.434Z</lastmod>
   </url>
   <url>
     <loc>https://itepifanio.github.io/posts/mamba-for-env-management/index.html</loc>
-    <lastmod>2024-01-26T00:57:29.151Z</lastmod>
+    <lastmod>2024-01-27T21:33:20.426Z</lastmod>
   </url>
   <url>
     <loc>https://itepifanio.github.io/posts/literate-programming/index.html</loc>
-    <lastmod>2024-01-26T00:57:29.151Z</lastmod>
+    <lastmod>2024-01-27T21:33:20.426Z</lastmod>
   </url>
   <url>
     <loc>https://itepifanio.github.io/posts/horizontal-lazy-loading/index.html</loc>
-    <lastmod>2024-01-26T00:57:29.151Z</lastmod>
+    <lastmod>2024-01-27T21:33:20.426Z</lastmod>
   </url>
 </urlset>
