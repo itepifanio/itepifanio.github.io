@@ -1,0 +1,71 @@
+---
+title:  "Meu ano de 2024"
+date:   2025-02-10 15:56:21
+author: Ítalo Epifânio
+categories: [Portuguese]
+image: shape-town-hall.jpg
+---
+
+# Meu Ano de 2024
+
+Mudei de emprego, organizei a [Python Nordeste 2024](https://2024.pythonnordeste.org/),
+fui a diversos eventos e fui premiado com o "We Grow Together". Esse foi um ano de
+intensos aprendizados, técnicos e não-técnicos.
+
+Começando pelos desafios não-técnicos, organizar uma conferência tech como a Python
+Nordeste exigiu um compromisso contínuo ao longo de 2023/2024. Foi um exercício de
+gerenciamento de recursos, de escuta, de criativade e que gerou 3 dias de muita troca.
+Fiquei bem orgulhoso do resultado final. Eu sabia que iria me mudar de Natal em 2025,
+então trazer o evento pro Rio Grande do Norte seria minha última contribuição direta
+pra comunidade tech que tanto me acolheu nos 8 anos que passei por lá.
+
+Além da PyNE, ajudei a fundar o [PyData Natal](https://pydata-natal.github.io/),
+um grupo que une Python e Dados e que tenta navegar entre as diversas inovações da área.
+Organizamos três meetups em 2024, agora que me mudei não consigo ajudar da mesma forma,
+mas em 2025 o pessoal segue firme e forte já tendo organizado o
+[Open Data Day](https://opendataday.org/pt_br/).
+
+::: {layout="[[50, 50], [50, 50]]"}
+
+![Selfie no backdrop da Python Nordeste (WIP high profile) ](selfie-pyne.jpg)
+
+![Participação na Python Brasil 2024](pybr.jpg)
+
+![Organização do 3º Meetup PyData](org-pydata.jpg)
+
+![Ganhei prêmio no DevOps Day Natal!](devops-days.jpg)
+
+:::
+
+Como participante, fui ao meu primeiro DevOps Day. Adorei o evento. Eu esperava palestras
+com slides cheios de código YAML, que teve também, mas me surpreendi com os cases e
+a criativade das soluções apresentadas. Aprendi muita coisa legal para colocar em prática
+no trabalho e ainda ganhei um livro no sorteio!
+
+Participei também da Python Brasil 2024, no Rio de Janeiro, aproveitando pra conhecer
+meus colegas e o escritório da [Shape Digital](https://www.shapedigital.com/) no processo.
+Foi minha segunda vez na Python Brasil. É sempre um evento muito rico, com destaque processo
+keynotes desse ano, se tiver um tempo vale a pena demais ver a
+[playlist do evento](https://www.youtube.com/watch?v=EPQKXDAVud0&list=PLDC3uVLxaEQ0fEDgetsXG8PdKYRdp-qvX&ab_channel=pythonbrasil).
+
+Já que mencionei a Shape, foi meu primeiro ano na empresa. Entrei em fevereiro de 2024 e
+construí muita coisa legal dentro da empresa. Técnicamente foi um ano de aprender bastante
+sobre MLOps, melhorando meus conhecimentos de observabilidade, aprendendo sobre Databricks,
+expandindo meus conhecimentos de Linux e Docker para Kubernetes. Para minha surpresa,
+mesmo tendo menos de um ano de casa, acabei ganhando o prêmio de um dos valores da Shape:
+"We Grow Together". Acho que a forma que trabalho com as comunidades de tecnologia e
+no meu dia a dia fizeram meus pares votarem em mim como alguém que apoia o desenvolvimento
+e que reconhece o time é maior que a soma dos indivíduos.
+
+::: {layout="[[50, 50], [50, 50]]"}
+
+![Meu setup como Machine Learning Engineer na Shape](setup-shape.jpg)
+
+![Premiação "We Grow Together"](shape-town-hall.jpg)
+
+:::
+
+Para 2025 eu me afastei um pouco da organização dos eventos, me mudei para São Carlos/SP
+onde estou pagando algumas disciplinas como aluno especial do mestrado em ciências da
+computação. Minha meta é ampliar minha base científica, enquanto continuo expandindo
+meus conhecimentos na indústria.

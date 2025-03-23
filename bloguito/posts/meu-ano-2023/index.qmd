@@ -7,35 +7,35 @@ categories: [Portuguese]
 
 # Meu Ano de 2023
 
-2023 começou com várias revisões do tutorial de três horas e meia que preparei para a PyCon US. 
-Apesar de trabalhar há alguns anos para o exterior, foi uma experiência bem desafiadora passar 3h30min 
-ininterruptos falando inglês, tirando dúvidas, alternando entre sistemas operacionais e aprendendo sobre 
-novos bugs em tempo real. "Going Beyond with Jupyter notebooks: Write your first package using literate programming" 
-atraiu grande público, ocupando duas salas, e recebeu excelentes feedbacks, especialmente sobre a parte de lint, 
+2023 começou com várias revisões do tutorial de três horas e meia que preparei para a PyCon US.
+Apesar de trabalhar há alguns anos para o exterior, foi uma experiência bem desafiadora passar 3h30min
+ininterruptos falando inglês, tirando dúvidas, alternando entre sistemas operacionais e aprendendo sobre
+novos bugs em tempo real. "Going Beyond with Jupyter notebooks: Write your first package using literate programming"
+atraiu grande público, ocupando duas salas, e recebeu excelentes feedbacks, especialmente sobre a parte de lint,
 testes e visualização de Jupyter notebooks.
 
-Falando em desafios, acho que concluí o maior deles: finalizar o curso de Ciências da Computação na UFRN. 
-Sou grato às ações afirmativas da universidade, que me auxiliaram durante metade do curso e permitiram que eu 
-continuasse estudando. Desde o primeiro semestre do curso, sou dono de casa, trabalho e estudo, e conciliar tudo 
+Falando em desafios, acho que concluí o maior deles: finalizar o curso de Ciências da Computação na UFRN.
+Sou grato às ações afirmativas da universidade, que me auxiliaram durante metade do curso e permitiram que eu
+continuasse estudando. Desde o primeiro semestre do curso, sou dono de casa, trabalho e estudo, e conciliar tudo
 isso foi difícil, mas um processo de amadurecimento imenso.
 
 A educação e a tecnologia mudaram minha vida.
 
-Nasci em uma cidade de 30 mil habitantes, Pau dos Ferros, quase no Rio Grande do Norte, quase no Ceará. 
-Meu sonho adolescente era a independência financeira, algo que conquistei ainda na graduação, mesmo que aos 
-trancos e barrancos. Jamais imaginei que trabalharia para fora do país ou que viajaria para os Estados Unidos 
+Nasci em uma cidade de 30 mil habitantes, Pau dos Ferros, quase no Rio Grande do Norte, quase no Ceará.
+Meu sonho adolescente era a independência financeira, algo que conquistei ainda na graduação, mesmo que aos
+trancos e barrancos. Jamais imaginei que trabalharia para fora do país ou que viajaria para os Estados Unidos
 para palestrar sobre tecnologia.
 
 Me sinto muito sortudo.
 
-No meu primeiro emprego, cada vez que o RH queria falar comigo, eu temia ser demitido, mas sempre era um aumento. 
+No meu primeiro emprego, cada vez que o RH queria falar comigo, eu temia ser demitido, mas sempre era um aumento.
 Mais do que dobrei meu salário durante meu tempo naquela empresa, mas às vezes a síndrome do impostor bate forte.
 
-Pela formação em instituições públicas (IFRN e UFRN) e por todos os ombros que me apoiaram, sempre senti que tinha 
-o dever de retribuir, de levar educação e tecnologia a mais pessoas, de unir academia e tecnologistas. Minha forma 
-de contribuir foi através das comunidades: iniciei ajudando a PHP-RN, já que programava em PHP, organizei meetups, 
-palestrei e até organizei a PHPeste (maior conferência PHP do Nordeste). Quando comecei a trabalhar com Python, 
-passei a ajudar o GruPy-RN. Retomamos suas atividades pós-pandemia, organizamos meetups maiores e melhores, e agora, 
+Pela formação em instituições públicas (IFRN e UFRN) e por todos os ombros que me apoiaram, sempre senti que tinha
+o dever de retribuir, de levar educação e tecnologia a mais pessoas, de unir academia e tecnologistas. Minha forma
+de contribuir foi através das comunidades: iniciei ajudando a PHP-RN, já que programava em PHP, organizei meetups,
+palestrei e até organizei a PHPeste (maior conferência PHP do Nordeste). Quando comecei a trabalhar com Python,
+passei a ajudar o GruPy-RN. Retomamos suas atividades pós-pandemia, organizamos meetups maiores e melhores, e agora,
 em 2024, estou na organização da Python Nordeste (maior conferência Python do Nordeste).
 
 2024 está sendo e promete ser um ano de correria. Outros estudos, comunidades de tecnologia e mais. Estou animado.
