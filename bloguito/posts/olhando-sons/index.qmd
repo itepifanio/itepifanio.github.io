@@ -1,0 +1,6 @@
+---
+title:  "Objeto hashable em Python"
+date:   2022-07-24 20:38:37
+author: Ítalo Epifânio
+categories: [Portuguese]
+---
