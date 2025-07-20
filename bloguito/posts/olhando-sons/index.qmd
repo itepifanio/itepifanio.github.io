@@ -1,6 +1,79 @@
 ---
-title:  "Objeto hashable em Python"
-date:   2022-07-24 20:38:37
+title:  "Olhando sons!"
+date:   2025-07-20 19:37:47
 author: Ítalo Epifânio
 categories: [Portuguese]
 ---
+
+Olhar para um som pode parecer contraintuitivo, mas no mundo digital é assim 
+que analisamos esse tipo de dado. Esse artigo exploramos o caminho do som: 
+da vibração física captada por um microfone, até a representação visual em 
+gráfico digital. Preparado para ver o que você ouve? 
+
+Tudo começa com a vibração do ar. Quando você fala, toca um instrumento ou 
+bate palmas, está fazendo o ar vibrar. Um microfone capta essas vibrações 
+usando uma membrana fina acoplada a uma bobina e um ímã. A vibração da membrana 
+move a bobina dentro do campo magnético, gerando uma corrente elétrica que 
+varia com o tempo (um sinal analógico que imita o formato das ondas sonoras).
+
+## Visualizado Wav
+
+O computador, entretanto, não entende sinais contínuos. Ele precisa de números 
+discretos, que mudam em instantes específicos. Por isso, o próximo passo 
+é a amostragem: o sinal analógico é "fotografado" em intervalos regulares 
+(por exemplo, 44.100 vezes por segundo ou 44,1 kHz), registrando o valor da 
+onda naquele exato momento. Isso transforma a variação contínua da corrente 
+em uma lista de números que o computador pode manipular.
+
+Cada valor amostrado é armazenado em um formato binário. O arquivo `.wav`, 
+por exemplo, guarda essas amostras em sequência com informações sobre a 
+taxa de amostragem e a profundidade de bits, como mostrado na Figura 1. 
+Isso permite não apenas reconstruir a forma da onda, mas também manter 
+fidelidade suficiente para a audição humana, mesmo que a amostra seja 
+apenas uma aproximação da realidade analógica. 
+Na prática, a fidelidade depende de quão frequentemente você amostra (taxa de 
+amostragem) e com que precisão representa cada valor (resolução em bits).
+
+A visualização do `.wav` mostra a amplitude do som ao longo do tempo, mas não 
+nos diz nada sobre quais frequências compõem aquele som. Isso limita nossa 
+compreensão de fenômenos sonoros mais complexos, como timbre, ruído ou variações 
+harmônicas. Para isso, usamos uma outra forma de visualização: o espectrograma.
+
+## Espectrograma
+
+O espectrograma divide o sinal em pequenas janelas de tempo e aplica uma 
+transformação matemática chamada STFT (Transformada de Fourier de Curto Prazo) 
+em cada uma. O resultado é um gráfico bidimensional, onde o eixo horizontal 
+representa o tempo, o eixo vertical representa as frequências, e as cores indicam a 
+intensidade dessas frequências.
+
+Na Figura 2, vemos um espectrograma padrão. Note como os sons com maior energia 
+aparecem como manchas mais brilhantes, e como os padrões mudam ao longo do tempo. 
+Isso permite identificar, por exemplo, a presença de harmônicos, ataques percussivos
+ou ruídos constantes.
+
+Entretanto, o ouvido humano não percebe todas as frequências de forma linear. 
+Somos mais sensíveis a certas faixas, distinguimos melhor sons entre 500 Hz e 4 kHz 
+(faixa da fala humana) do que entre 10 kHz e 12 kHz. Para capturar essa percepção, 
+utilizamos o mel-spectrograma, uma variação do espectrograma que redistribui as 
+frequências de forma logarítmica, imitando a escala auditiva humana.
+
+## Mel-Espectrograma
+
+A Figura 3 mostra o que é um Mel-Espectrograma. As frequências mais baixas são 
+mais "espalhadas" no gráfico, refletindo a maior sensibilidade humana. 
+Essa forma de representação é muito usada em aplicações de machine learning para 
+reconhecimento de fala, classificação de sons e detecção de eventos sonoros.
+
+Esse tipo de análise visual é especialmente poderoso em áreas como a bioacústica. 
+Ao observar espectrogramas de gravações ambientais, pesquisadores podem identificar 
+vocalizações de aves, morcegos ou cetáceos, mesmo em meio a ruídos complexos da natureza. 
+Um canto específico pode aparecer como uma assinatura visual clara, facilitando o 
+monitoramento de espécies, detecção de padrões comportamentais ou até a descoberta 
+de novos sons ainda não catalogados.
+
+## Conclusão
+
+Ver o som, portanto, vai muito além de estética. É uma ferramenta que transforma dados 
+invisíveis em conhecimento concreto que nos permitindo entender, preservar e interagir
+com o mundo sonoro de maneira cada vez mais rica.
